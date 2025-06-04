@@ -34,9 +34,8 @@ const skillGroups = [
 
 export default function SkillsHover() {
   return (
-    <section id="skills" className="py-20 bg-gray-50 overflow-visible">
+    <section id="skills" className="bg-gray-50 overflow-visible">
       <div className="container mx-auto">
-        <h3 className="text-3xl font-bold text-center mb-12">My Skills</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {skillGroups.map((group) => (
             <div
