@@ -21,8 +21,8 @@ export default function HomePage() {
           h-screen
         "
       >
-        {/* Left: Profile Image */}
-        <div className="md:w-1/2 flex justify-center mb-8 md:mb-0">
+        {/* Left: Profile Image (hidden on small screens) */}
+        <div className="hidden md:flex md:w-1/2 justify-center mb-8 md:mb-0">
           <Image
             src="/chandranadendla/Hero_image.png"
             alt="Chandra SK Nadendla"
@@ -32,10 +32,8 @@ export default function HomePage() {
           />
         </div>
 
-        {/* Right: Intro Text & Card Stack */}
-        <div className="relative md:w-1/2 text-center md:text-left z-10 space-y-8">
-
-          {/* Card Stack Container */}
+        {/* Right: Card Stack (full width on small, half on md+) */}
+        <div className="w-full md:w-1/2 flex items-center justify-center">
           <div className="h-[40rem] flex items-center justify-center w-full">
             <CardStack items={CARDS} />
           </div>
@@ -46,7 +44,6 @@ export default function HomePage() {
     </>
   );
 }
-
 
 const CARDS = [
   {
