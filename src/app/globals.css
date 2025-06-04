@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -23,4 +26,67 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+@layer components {
+  /* ----------------------------------------------------------
+     1) Base “story-card” component
+     ---------------------------------------------------------- */
+
+  .story-card {
+    @apply relative bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300;
+    /* We want to use a pseudo-element (::before) to show a gradient on hover.
+       By default, the ::before starts as a tiny circle (clip-path: circle(0)).
+       On hover, it expands. */
+  }
+  .story-card:hover {
+    @apply -translate-y-2 shadow-2xl;
+  }
+
+  .story-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Example gradient—feel free to swap these colors for your brand palette */
+    background: linear-gradient(
+      to bottom right,
+      rgba(123, 31, 162, 0.8),
+      rgba(255, 193, 7, 0.8)
+    );
+    clip-path: circle(0% at 80% 20%);
+    transition: clip-path 0.5s ease-out;
+    z-index: 0; /* put it behind the content */
+  }
+  .story-card:hover::before {
+    clip-path: circle(150% at 80% 20%);
+  }
+
+  /* ----------------------------------------------------------
+     2) Content wrapper inside the card
+     ---------------------------------------------------------- */
+  .story-card-content {
+    /* Make sure all inner content sits above the ::before overlay */
+    @apply relative z-10 p-6 flex flex-col h-full;
+  }
+
+  /* ----------------------------------------------------------
+     3) Title, date, description, and tags styling
+     ---------------------------------------------------------- */
+  .story-card-title {
+    @apply text-2xl font-bold text-white mb-2;
+  }
+  .story-card-date {
+    @apply text-sm text-white/75 mb-3;
+  }
+  .story-card-desc {
+    @apply text-base text-white line-clamp-3 mb-4;
+  }
+  .story-card-tags {
+    @apply mt-auto flex flex-wrap gap-2;
+  }
+  .story-card-tag {
+    @apply bg-white/30 text-white px-2 py-1 text-xs rounded-full backdrop-blur-sm;
+  }
 }

@@ -1,12 +1,12 @@
-/** @type {import('next').NextConfig} */
-// next.config.mjs
-const config = {
-  output: 'export',
-  assetPrefix: '/chandranadendla/',
-
-  // (optional) so /about/ becomes /about/index.html
-  trailingSlash: true,
+const isProd = process.env.NODE_ENV === 'production';
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    unoptimized: true, // Disable default image optimization
+  },
+  assetPrefix: isProd ? '/chandranadendla/':'',
+  basePath: isProd ? '/chandranadendla':'',
+  output: 'export'
 };
 
-export default config;
-
+export default nextConfig;

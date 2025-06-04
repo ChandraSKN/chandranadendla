@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Image from "next/image";
 import SkillsHover from "./Skills";
+import Link from "next/link";
 
 export default function HomePage() {
   const startYear = 2020;
@@ -19,7 +20,7 @@ export default function HomePage() {
         {/* Left: Profile Image */}
         <div className="md:w-1/2 flex justify-center mb-8 md:mb-0">
           <Image
-            src="/Hero_image.png"
+            src="/chandranadendla/Hero_image.png"
             alt="Chandra SK Nadendla"
             width={400}
             height={400}
@@ -28,55 +29,36 @@ export default function HomePage() {
         </div>
 
         {/* Right: Content */}
-        <div className="md:w-1/2 text-center md:text-left">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
-            Product Manager
+        <div className="relative md:w-1/2 text-center md:text-left z-10">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-6">
+            Hello everyone, help yourself with below options to know me more
           </h1>
-          <h2 className="text-2xl md:text-3xl mb-6">
-            Experienced in Product Design · Full Stack Development · Team
-            Supervision · Product Management
-          </h2>
-          {/* Tagline */}
-          <p className="text-lg italic mb-8">
-            Learning, adapting, and bringing transferable skill sets to every
-            project.
-          </p>
-
-          {/* Call-to-Action Buttons */}
           <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-12">
-            <a
-              href="/contact"
+            <Link
+              href="/professional"
               className="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition"
             >
-              Contact Me
-            </a>
-            <a
-              href="/blog"
-              className="px-6 py-3 border-2 border-white rounded-lg hover:bg-white hover:text-blue-600 transition"
+              Professional
+            </Link>
+            <Link
+              href="/hobby"
+              className="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition"
             >
-              Read My Blog
-            </a>
+              Hobby
+            </Link>
+            <Link
+              href="/teachings"
+              className="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition"
+            >
+              Teachings
+            </Link>
+            <Link
+              href="/blogs"
+              className="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition"
+            >
+              Blogs
+            </Link>
           </div>
-
-          {/* Down Chevron */}
-          <a
-            href="#about"
-            className="block md:absolute bottom-8 mx-auto animate-bounce"
-          >
-            <svg
-              className="w-8 h-8 text-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </a>
         </div>
       </section>
       {/* About Me */}
@@ -112,16 +94,16 @@ export default function HomePage() {
                 Azure, Lean Manufacturing
               </li>
             </ul>
-            <a
+            <Link
               href="/resume.pdf"
               className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
             >
               Download Resume
-            </a>
+            </Link>
           </div>
           <div className="flex justify-center">
             <Image
-              src="/Chandra.jpg"
+              src="/chandranadendla/Chandra.jpg"
               alt="Chandra SK Nadendla"
               width={300}
               height={300}
@@ -200,7 +182,7 @@ export default function HomePage() {
             {/* Repeat for each project */}
             <div className="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition">
               <Image
-                src="/Spinodoid.png"
+                src="/chandranadendla/Spinodoid.png"
                 alt="Project 1"
                 width={300}
                 height={300}
@@ -211,12 +193,12 @@ export default function HomePage() {
                 <p className="text-gray-600 mb-4">
                   
                 </p>
-                <a
+                <Link
                   href="/projects/robotics-simulator"
                   className="text-blue-600 hover:underline"
                 >
                   View Details →
-                </a>
+                </Link>
               </div>
             </div>
             {/* …other project cards */}

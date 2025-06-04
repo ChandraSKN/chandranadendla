@@ -31,7 +31,7 @@ export default function Navbar() {
             { href: '/blogs', label: 'Blog' },
             { href: '/stories', label: 'Stories' },
             { href: '/journey', label: 'My Journey' },
-            { href: '/about', label: 'About' },
+            { href: '/learn', label: "Let's learn "},
           ].map(({ href, label }) => (
             <li key={href} className="mt-4 md:mt-0">
               <Link
