@@ -2,10 +2,12 @@
 import Image from "next/image";
 import SkillsHover from "../Skills";
 import Link from "next/link";
+import { TextGenerateEffect } from "../components/ui/text-generate-effect";
 
 export default function HomePage() {
   const startYear = 2020;
   const experienceYears = new Date().getFullYear() - startYear - 1;
+  const words ='Product Manager, Full‐Stack Engineer and Product Designer with ' + experienceYears + ' years of experience in Mechanical Engineering, Robotics, and Web Technologies. I build end‐to‐end solutions—from CAD models to cloud‐based dashboards'
 
   return (
     <>
@@ -27,12 +29,7 @@ export default function HomePage() {
             <h1 className="text-4xl md:text-5xl font-bold">
               Hi, I’m Chandra SK Nadendla
             </h1>
-            <p className="text-lg md:text-xl text-gray-200">
-              Product Manager & Full‐Stack Engineer with {experienceYears} years
-              of experience in Mechanical Engineering, Robotics, and Web
-              Technologies. I build end‐to‐end solutions—from CAD models to
-              cloud‐based dashboards.
-            </p>
+            <TextGenerateEffect words={words} />;
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 href="#portfolio"

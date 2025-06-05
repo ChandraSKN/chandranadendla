@@ -1,6 +1,6 @@
 // app/blog/[postId]/page.js
 import { notFound } from 'next/navigation';
-import { getSortedPostsData,getPostData } from '../../../../lib/posts';
+import { getSortedPostsData,getPostData } from '../../../../../lib/posts';
 
 export async function generateStaticParams() {
   return getSortedPostsData().map(post => ({ postId: post.id }));

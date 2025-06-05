@@ -1,6 +1,6 @@
 // app/blog/page.js
 import Link from 'next/link';
-import { getSortedPostsData } from '../../../lib/posts';
+import { getSortedPostsData } from '../../../../lib/posts';
 import Image from 'next/image';
 
 export default function BlogIndex() {
