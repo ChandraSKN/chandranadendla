@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[9243,["955","static/chunks/955-cd832252bf50c5ca.js","874","static/chunks/874-aadbbc7442c36283.js","411","static/chunks/411-0ee75dd9bd4709d5.js","899","static/chunks/899-dd91d4612fe83412.js","177","static/chunks/app/layout-939b54aa27996881.js"],""]
-3:I[2162,["955","static/chunks/955-cd832252bf50c5ca.js","874","static/chunks/874-aadbbc7442c36283.js","411","static/chunks/411-0ee75dd9bd4709d5.js","899","static/chunks/899-dd91d4612fe83412.js","177","static/chunks/app/layout-939b54aa27996881.js"],"default"]
+2:I[9243,["955","static/chunks/955-cd832252bf50c5ca.js","874","static/chunks/874-aadbbc7442c36283.js","411","static/chunks/411-0ee75dd9bd4709d5.js","899","static/chunks/899-13f568fd80857b39.js","177","static/chunks/app/layout-939b54aa27996881.js"],""]
+3:I[2162,["955","static/chunks/955-cd832252bf50c5ca.js","874","static/chunks/874-aadbbc7442c36283.js","411","static/chunks/411-0ee75dd9bd4709d5.js","899","static/chunks/899-13f568fd80857b39.js","177","static/chunks/app/layout-939b54aa27996881.js"],"default"]
 4:I[7555,[],""]
 5:I[1295,[],""]
-6:I[672,["955","static/chunks/955-cd832252bf50c5ca.js","874","static/chunks/874-aadbbc7442c36283.js","411","static/chunks/411-0ee75dd9bd4709d5.js","899","static/chunks/899-dd91d4612fe83412.js","177","static/chunks/app/layout-939b54aa27996881.js"],"default"]
+6:I[672,["955","static/chunks/955-cd832252bf50c5ca.js","874","static/chunks/874-aadbbc7442c36283.js","411","static/chunks/411-0ee75dd9bd4709d5.js","899","static/chunks/899-13f568fd80857b39.js","177","static/chunks/app/layout-939b54aa27996881.js"],"default"]
 8:I[9665,[],"MetadataBoundary"]
 a:I[9665,[],"OutletBoundary"]
 d:I[4911,[],"AsyncMetadataOutlet"]
@@ -11,174 +11,13 @@ f:I[9665,[],"ViewportBoundary"]
 11:I[6614,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/584ab868c50147d9.css","style"]
-0:{"P":null,"b":"2O20cFrvjL0clV5b0OlE_","p":"","c":["","stories","MAD"],"i":false,"f":[[["",{"children":["stories",{"children":[["storyId","MAD","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/584ab868c50147d9.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["stories",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["storyId","MAD","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","1QTbHghihx9G3GFTPuINu",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+:HL["/_next/static/css/d896b1e3ed146442.css","style"]
+0:{"P":null,"b":"Wm-cOmToKaZrCLCi2bgQN","p":"","c":["","stories","MAD"],"i":false,"f":[[["",{"children":["stories",{"children":[["storyId","MAD","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d896b1e3ed146442.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["stories",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["storyId","MAD","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","VmA4o4Gj7yOmQvLAfzBPu",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
 12:"$Sreact.suspense"
 13:I[4911,[],"AsyncMetadata"]
 9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
 c:null
-15:T371c,<h2>Chapter 1: My First Murder</h2>
-<p>In the bustling city of Mumbai, where the chaos of life mingled with the rich tapestry of cultures, a slow and tense evening unfolded. The sun’s dying rays painted the sky with hues of orange and purple, casting an ethereal glow upon the teeming streets. Amidst this vibrant metropolis, <strong>SSU (Sarasvati Siksha University)</strong> stood as a beacon of knowledge and opportunity.</p>
-<p><strong>Gowtham</strong>, a young man with a restless spirit, found himself in the dimly lit depths of the university’s car park. As he sat in his car, the world outside faded into obscurity, shielding him from the clamour of Mumbai’s relentless energy. Lost in his thoughts, he was startled by the shrill ring of his phone. Its screen displayed the name <strong>Ravi</strong>, and without hesitation, Gowtham answered.</p>
-<blockquote>
-<p>“I am coming, give me ten minutes,” Gowtham replied hurriedly, his voice laced with urgency.</p>
-</blockquote>
-<p>Ravi’s terse response,</p>
-<blockquote>
-<p>“Come fast, we need to move the body,”<br>
-sent a chill down Gowtham’s spine.</p>
-</blockquote>
-<p>With nimble fingers, Gowtham accessed a clandestine app on his phone—an indispensable tool that granted him control over the college’s security systems. A swift tap triggered a notification:</p>
-<blockquote>
-<p><strong>Car park access granted.</strong></p>
-</blockquote>
-<p>The gates groaned open, allowing him passage. Exiting his car, Gowtham sprinted toward the door, his eyes fixated on his watch as the minutes ticked away relentlessly.</p>
-<p>Through the labyrinthine corridors, Gowtham navigated, his watch screen continuously swiped as if trying to manipulate time itself. Finally, he arrived at a dimly lit location illuminated only by feeble emergency lights scattered along the walls. The atmosphere was heavy with anticipation. Gowtham tapped his watch, causing a small red light to emanate, accompanied by a subtle beep. In the soft glow, a young woman emerged, her silhouette hinting at a familiar figure. Without hesitation, she rushed towards him, enveloping him in a tight embrace. It was <strong>Shreya</strong>, the object of Gowtham’s affection. In that moment, their worlds converged, offering solace amidst the turmoil that awaited them.</p>
-<p>Soon, three more figures emerged from the shadows: <strong>Ravi</strong>, <strong>Divya</strong>, and <strong>Naresh</strong>, their faces etched with a mixture of worry and trepidation. As Gowtham approached them, his voice strained with concern, he called out to Ravi:</p>
-<blockquote>
-<p>“What happened?”</p>
-</blockquote>
-<p>Divya interjected, her words laced with theatrical flair:</p>
-<blockquote>
-<p><strong>“Murder.”</strong></p>
-</blockquote>
-<p>The weight of the unknown hung heavy. Immediately, Ravi cast doubt on Divya’s assumption.</p>
-<blockquote>
-<p>“We don’t know yet,” he replied, scepticism in his voice.</p>
-</blockquote>
-<p>Divya’s retort came swiftly, dripping with irony:</p>
-<blockquote>
-<p>“Oh, in what world does a person choose uni theatre to die naturally?”</p>
-</blockquote>
-<p>Ravi responded with a bemused look, silently acknowledging the absurdity of the situation.</p>
-<p>Curiosity burned within Gowtham, and he pressed Ravi for an explanation on why he had decided not to involve the police. The silence that followed spoke volumes as each member of the group exchanged furtive glances. Suspicion gripped Gowtham, and he turned to Shreya, seeking answers.</p>
-<blockquote>
-<p>“Shreya, what happened?” he implored, his voice tinged with concern and frustration.</p>
-</blockquote>
-<p>Shreya hesitated for a moment, her gaze shifting between Gowtham and Ravi. Finally, she mustered the courage to speak.</p>
-<blockquote>
-<p>“G… actually…”</p>
-</blockquote>
-<p>Her voice trailed off as she looked toward Ravi, urging him to reveal the truth. Gowtham’s gaze intensified, a flicker of anger creeping into his voice.</p>
-<blockquote>
-<p>“Ravi, you tell me,” he demanded.</p>
-</blockquote>
-<p>Ravi began to mumble, struggling to find the right words.</p>
-<blockquote>
-<p>“Actually, there was a knife… and fingerprints… and footprints…”</p>
-</blockquote>
-<p>His voice faltered. Divya’s eyes narrowed as she locked her gaze onto Ravi, her accusatory tone cutting through the tension.</p>
-<blockquote>
-<p>“It’s your fault. Dad warned me about your irresponsible behaviour. You are going to drag us all down,”</p>
-</blockquote>
-<p>she asserted, her words seething with resentment.</p>
-<p>Ravi’s voice trembled as he responded, shocked by his sister’s revelation.</p>
-<blockquote>
-<p>“Did Dad really say that?” he whispered, disbelief in his tone.</p>
-</blockquote>
-<p>Divya’s sarcastic smirk remained firmly in place:</p>
-<blockquote>
-<p>“More or less, the same meaning.”</p>
-</blockquote>
-<p>Ravi’s confusion deepened as he questioned her motives.</p>
-<blockquote>
-<p>“If you knew I was trouble, why did you follow me?”</p>
-</blockquote>
-<p>he asked, hurt colouring his voice.</p>
-<p>Divya fired back without hesitation:</p>
-<blockquote>
-<p>“I wanted to know what you were hiding.”</p>
-</blockquote>
-<p>Ravi insisted:</p>
-<blockquote>
-<p>“I didn’t hide anything from you.”</p>
-</blockquote>
-<p>Divya, undeterred, shot back:</p>
-<blockquote>
-<p>“What about the ice cream I left in the fridge? You ate it.”</p>
-</blockquote>
-<p>Ravi’s face contorted in disbelief:</p>
-<blockquote>
-<p>“I didn’t eat it. Ask Mom if you want.”</p>
-</blockquote>
-<p>Divya, unyielding, replied:</p>
-<blockquote>
-<p>“Mom always supports you. I know.”</p>
-</blockquote>
-<p>Gowtham observed the exchange with a suspicious gaze, silently keeping his own secret about devouring the ice cream.</p>
-<p>Growing impatient, Gowtham intervened:</p>
-<blockquote>
-<p>“Come on, guys. Can someone please tell me what happened?”</p>
-</blockquote>
-<p>Naresh, who had been silent until now, finally spoke up:</p>
-<blockquote>
-<p>“I think we messed up,” he confessed, fear and guilt colouring his voice.<br>
-“I don’t know what happened exactly, but I saw Ravi holding the knife next to the body.”</p>
-</blockquote>
-<p>Ravi interrupted, countering Naresh’s claim:</p>
-<blockquote>
-<p>“I saw Shreya holding the knife and entering the theatre hall,” he insisted, accusation in his tone.</p>
-</blockquote>
-<p>Shreya, frustration evident in her voice, interjected:</p>
-<blockquote>
-<p>“For God’s sake, how many times do I have to tell you? That was not a knife; it was my hair clip.”</p>
-</blockquote>
-<p>Divya came between them:</p>
-<blockquote>
-<p>“I didn’t do anything, I just followed Ravi.”</p>
-</blockquote>
-<p>Everyone looked at Divya angrily.</p>
-<p>Gowtham silenced the heated exchange, his voice cutting through the tension:</p>
-<blockquote>
-<p>“So, what are you all trying to say?”</p>
-</blockquote>
-<p>His gaze shifted between his friends. Naresh spoke again, revealing a troubling truth:</p>
-<blockquote>
-<p>“The whole dead body is covered in all four of our fingerprints and footprints. If we inform anyone about it, no one is going to trust us.”</p>
-</blockquote>
-<p>As Naresh explained their involvement, Divya attempted to speak, but each time, someone interrupted her. Frustration building, she finally shouted:</p>
-<blockquote>
-<p>“Guys, the dead body!”</p>
-</blockquote>
-<p>Everyone turned their attention to Divya, eager to hear what she had to say. With a trembling voice, she continued:</p>
-<blockquote>
-<p>“The dead body is missing.”</p>
-</blockquote>
-<p>All eyes darted toward the spot where Divya pointed, only to find an empty space. Surprisingly, there was no trace of the corpse—only the entire floor splattered with blood. Panic gripped the group as they realized the evidence was vanishing before their eyes. Ravi’s hesitation to involve the police suddenly made sense to Gowtham. Ravi frantically searched for the murder weapon, but it was nowhere to be found. Gowtham understood that Ravi’s reluctance was driven by their participation in the upcoming SSP competition.</p>
-<p>Gowtham and the rest joined the search, scouring every corner of the scene. The tension in the air was palpable as they desperately looked for any sign of the missing body or weapon. The dimly lit theatre hall added an eerie ambiance to the search; the shadows played tricks on their minds. Each creaking sound and flickering light heightened their anxiety.</p>
-<p>In the midst of the chaos, Divya’s fear-stricken voice cut through:</p>
-<blockquote>
-<p>“I think we should leave. It’s getting late, and we’ve spent too much time at the crime scene.”</p>
-</blockquote>
-<p>Her suggestion hung in the air, and everyone contemplated the consequences of staying any longer. The fear of being caught, of the truth unraveling, weighed heavily on their minds.</p>
-<p>Ravi pondered the situation and voiced his concern:</p>
-<blockquote>
-<p>“What about our footprints? If there’s no body or weapon, our footprints will be the only evidence to file a case against us. We won’t have any proof to defend ourselves.”</p>
-</blockquote>
-<p>Naresh, who had been quiet until now, spoke up with a mysterious tone:</p>
-<blockquote>
-<p>“We should clean up the evidence.”</p>
-</blockquote>
-<p>Ravi readily agreed, understanding the urgency of the situation. They couldn’t afford to leave any trace behind—any shred of evidence that could link them to the crime. The group’s collective decision was made, acknowledging the risks they faced. They knew they had to clean up the crime scene to eliminate any trace of their involvement.</p>
-<p>One by one, they retrieved cleaning tools from the theatre hall’s storage room. Gowtham grabbed a wet mop, its bristles dripping with water, while Ravi took a dry mop, ready to absorb any remaining stains. Naresh and Shreya armed themselves with cloths and cleaning spray, their determined expressions masking their fear. Divya, holding a dusting tool in her trembling hand, tried to keep up her composure amidst the chaos.</p>
-<p>As the group assembled with their respective tools, Ravi could not resist a sarcastic remark directed at Divya, trying to lighten the heavy atmosphere:</p>
-<blockquote>
-<p>“What will you do with that?”</p>
-</blockquote>
-<p>He pointed at the dusting tool. Divya, despite the tension, retorted in kind:</p>
-<blockquote>
-<p>“Sorry, brother, it’s my first murder… I mean, the first murder I’ve ever seen.”</p>
-</blockquote>
-<p>With a mixture of trepidation and determination, they set to work. The sound of mops sweeping across the bloodstained floor echoed through the empty theatre hall. The pungent smell of cleaning chemicals mingled with the metallic scent of blood, creating an odd combination that permeated the air. Each member of the group scrubbed and wiped; their movements almost robotic as they tried to erase any trace of their presence.</p>
-<p>The task felt never-ending, the minutes stretching into hours as they meticulously cleaned the bloodstains, ensuring not a single spot remained. The intensity of their focus was unwavering, fuelled by the fear of discovery. Every sound, every creaking floorboard, sent a jolt of anxiety through their veins. As they continued their frantic efforts, a newfound sense of unity emerged among the group. Despite their conflicting emotions and accusations, they had no choice but to rely on each other to escape the clutches of impending doom. Each stroke of the mop, each spray of the cleaning solution, became a symbolic act of trust and solidarity.</p>
-<p>The minutes turned into hours, and exhaustion weighed heavily on their shoulders. Drops of sweat rolled down their foreheads, mixing with the remnants of blood on their faces. But they persisted, determined to leave no trace behind. The theatre hall slowly transformed from a crime scene to a sterile, sanitized space, devoid of any evidence of their involvement.</p>
-<p>Finally, as the last remnants of blood were wiped away, a sense of relief washed over them. They had done their best to clean up the mess they had unwittingly become a part of. Yet the underlying unease remained, lingering like a shadow in the back of their minds. The missing body, the vanishing evidence—it was a mystery they could not escape.</p>
-<p>Exhausted and emotionally drained, they gathered their cleaning tools, careful to leave no trace of their presence behind. As they prepared to leave the theatre hall, the weight of their actions settled upon them. They had tampered with a crime scene, hidden the truth, and embarked on a dangerous path. The consequences of their choices loomed over them, threatening to unravel their lives.</p>
-<p>With heavy hearts, they made their way out of the theatre hall, each step filled with uncertainty. The darkness of the night outside mirrored the uncertainty that now engulfed their lives. They had crossed a line, and there was no turning back.</p>
-<p>As they dispersed into the night, the events of that evening remained etched in their minds. The murder, the missing body, the collective decision to clean up the evidence—they were bound together by secrets and guilt. The mystery had just begun, and they were entangled in a web of intrigue and danger that would test their loyalty and resilience.</p>
-<p>Little did they know that their actions had set in motion a series of events that would lead them deeper into the darkness, unravelling a web of secrets and lies that would threaten not only their friendships but also their very lives. The truth was out there, waiting to be discovered, and they were about to embark on a journey that would change everything they thought they knew.</p>
-<p>And so, with hearts heavy and minds filled with anticipation, they stepped into the unknown, ready to face the consequences of their actions and delve deeper into the intricate puzzle of the first murder they had ever encountered. The game had just begun, and the stakes were higher than they could have ever imagined.</p>
-7:["$","article",null,{"className":"prose prose-lg mx-auto py-16 px-4 max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-extrabold mb-4","children":"MAD"}],["$","p",null,{"className":"text-sm text-gray-500 mb-8","children":"5/19/2025"}],["$","section",null,{"className":"prose prose-lg lg:prose-xl space-y-6 text-justify mx-auto","style":{"textAlign":"justify"},"dangerouslySetInnerHTML":{"__html":"$15"}}],["$","div",null,{"className":"mt-12 flex justify-between text-indigo-600"}]]}]
+7:["$","article",null,{"className":"prose prose-lg mx-auto py-16 px-4 max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-extrabold mb-4","children":"MAD"}],["$","p",null,{"className":"text-sm text-gray-500 mb-8","children":"5/19/2025"}],["$","section",null,{"className":"prose prose-lg lg:prose-xl space-y-6 text-justify mx-auto","style":{"textAlign":"justify"},"dangerouslySetInnerHTML":{"__html":""}}],["$","div",null,{"className":"mt-12 flex justify-between text-indigo-600"}]]}]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 b:null
 14:{"metadata":[["$","title","0",{"children":"CSKN"}],["$","meta","1",{"name":"description","content":"CSKN Website"}]],"error":null,"digest":"$undefined"}
