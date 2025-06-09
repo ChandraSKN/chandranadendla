@@ -12,12 +12,12 @@ f:I[9665,[],"ViewportBoundary"]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/css/d896b1e3ed146442.css","style"]
-0:{"P":null,"b":"Y75rE8gg3Q3RE5HS9-uTW","p":"","c":["","stories","MAD"],"i":false,"f":[[["",{"children":["stories",{"children":[["storyId","MAD","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d896b1e3ed146442.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["stories",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["storyId","MAD","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ZbNLCy5iitx7jqnF3Nec_",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"CDbO2sVmsmt3Ww5KFfbF9","p":"","c":["","stories","MAD"],"i":false,"f":[[["",{"children":["stories",{"children":[["storyId","MAD","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d896b1e3ed146442.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["stories",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["storyId","MAD","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","5eM9v4o5uZnTWPS8QlSp2",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
 12:"$Sreact.suspense"
 13:I[4911,[],"AsyncMetadata"]
 9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
 c:null
-15:T3f86,<h3><strong>Chapter 1: My First Murder</strong></h3>
+15:T15fd,<h3><strong>Chapter 1: My First Murder</strong></h3>
 <p>In the busy city of Mumbai, life never stopped. The sun was going down, and the sky turned orange and purple. All around, people hurried home, street vendors packed up, and cars honked in traffic. In the middle of this rush stood <strong>Sarasvati Siksha University (SSU)</strong>, a place where students studied hard and hoped for a bright future.</p>
 <p>Gowtham, a young man with restless thoughts, sat alone in his car in the university’s parking lot. The bright lights of the campus buildings felt far away. As he stared at his phone, a call came in from Ravi. Gowtham’s heart raced.</p>
 <p>“I’m coming. Give me ten minutes,” he said, voice shaking.</p>
@@ -57,106 +57,6 @@ c:null
 <p>On the steps, Gowtham paused. He thought about the missing body and the hidden knife. Some part of him feared this was only the beginning. They had cleaned away the proof, but they could not erase what they had seen—or what they might do next.</p>
 <p>As they disappeared into the Mumbai night, each of them carried a secret that would bind them together—and call their loyalty and courage into question. The first murder they ever faced had changed everything. They were no longer just students at SSU. They were something else now, and they didn’t know if they could ever go back to the way things were before.</p>
 <hr>
-<p><strong>Chapter 2: The Day We Met</strong></p>
-<p>A perfect crime may look flawless as long as the secret is kept. But even the best plans can fall apart if people do not stay silent in hard times. Now the question is: can these five friends really keep their secret? Were they ever as close as they seemed?</p>
-<p>To answer that, we must go back to the day they first met—the start of the SSP Club and their journey together.</p>
-<p><strong>Eight months ago</strong>, none of them—except Divya and Ravi—knew each other. It all began with one decision by Rama Prabha, the head of the Science Group at Sarasvati Siksha University (SSU).</p>
-<p>She wanted to encourage hands-on learning and support young talent. So she started the SSP Club (“Special Science Projects”). The plan was to pick 150 students from colleges across India. From those, only five would win a scholarship to study at top universities like Cambridge, Oxford, Harvard, or Stanford. Even more exciting, those five would get to work on India’s defence project Kavach, alongside government scientists.</p>
-<p>But to make the top five, they had to clear three tough rounds.</p>
-<h3><strong>The Announcement</strong></h3>
-<p>One bright morning, the SSU campus shone under the sun. Old buildings stood tall beside modern labs full of the latest equipment. In the open hall, 150 hopeful students gathered, their eyes full of dreams. They came to hear Rama Prabha speak.</p>
-<p>When she stepped onto the stage, everyone grew quiet. Her voice was calm but firm.</p>
-<p>“Welcome, young scientists and innovators,” she said. “Today begins a journey to test your skills, your teamwork, and your creative spirit. The SSP Club is not just a competition. It is your chance to become true scientific visionaries.”</p>
-<p>She explained the three stages:</p>
-<p><strong>Stage 1: Group Project Challenge – “The Enigma Experiment”</strong>
-Students would form teams of five. Each team got a special problem called the Enigma Experiment. They had to work together to design and run an experiment, analyse the data, and write a clear report. Time was limited, so teamwork was essential.</p>
-<p><strong>Stage 2: Face-to-Face Rounds – “Scientific Showdown”</strong>
-The best teams from Stage 1 moved on to these rounds. In a real laboratory setting, they faced tests like identifying unknown substances, solving tricky equations, and performing careful lab techniques. Judges, including famous scientists, would watch how well they worked under pressure.</p>
-<p><strong>Stage 3: Individual Prototype Showcase – “Innovation Expo”</strong>
-Finally, the competition shifted to individual work. Each student chose one area of science to explore and built a prototype. At the Innovation Expo, they presented their ideas to top scientists, industry leaders, and the public. The judges looked for originality, practicality, scientific accuracy, and the impact on society.</p>
-<p>“I believe in each of you,” Rama Prabha concluded, smiling. “You were chosen because you have the passion and talent to shape the future. Learn from one another, and let your minds soar.”</p>
-<p>The hall buzzed with excitement as students whispered ideas and plans.</p>
-<h3><strong>The Dinner</strong></h3>
-<p>After the speech, everyone chatted and laughed—until Dr Vishnu Vardhan, a psychology professor, stepped forward. His tall, strong figure silenced the room.</p>
-<p>“Attention, everyone,” he said. “The competition is cancelled.”</p>
-<p>Shock and disappointment spread through the crowd.</p>
-<p>“But,” he added with a strange smile, “remember this: I can cancel it again for anyone who makes a mistake.” He paused, then quoted, “To live hundred times you need be lucky hundred times. To die once, you need only one unlucky day.”</p>
-<p>His words hung heavy. “We are here not to make your futures easy—that is your parents’ job. We are here to make the world brighter, and I will push you into darkness if needed. Think carefully before you act.”</p>
-<p>He reminded them to dress well for the dinner and to behave.</p>
-<p>The evening arrived, and one by one, the participants made their way into the hall around 7:00
-PM. Among the crowd, a lady dressed in a stunning red long dress caught everyone's attention.
-It was none other than Shreya, who seemed to have a group of admirers following her every
-move. On the other hand, Naresh, the unnoticed figure, entered the hall in an old suit that looked
-older than the university itself.</p>
-<p>While Shreya became the centre of attention, male students like Gowtham and Vivek engaged
-in a silent competition to impress the female students. Gowtham, dressed impeccably as a
-gentleman, caught the eyes of many, but he seemed disinterested in the beauty competition
-unfolding before him. Instead, he quietly sipped a fruit punch in a corner. Vivek, on the other
-hand, was determined to eliminate his competitors before the start of the first round. He took
-out a small butterfly drone from his pocket and set it flying. Using his smartwatch, Vivek
-maneuverer the drone to fly directly over the students' eyes, causing them to drop their drinks
-onto the professor. Vishnu Vardhan, known for his observant nature, noticed the students'
-actions but did not respond immediately, silently adding their names to his list of potential
-troublemakers.</p>
-<p>Growing frustrated, Vivek decided to take his actions further and directly target Vishnu
-Vardhan. He directed the butterfly drone to fly over Naresh as he was about to pass by Vishnu
-Vardhan. Vivek pressed the up arrow on his watch, causing the drone to fly high into the air,
-and then adjusted its angle to make it swoop down towards Naresh. As the butterfly flew over
-Naresh's eyes, he shook and accidentally flipped his juice glass. However, Gowtham, who
-happened to be standing between Naresh and Vishnu Vardhan, shielded the professor from the
-flying juice, causing it to land on Gowtham instead. Vishnu Vardhan felt the impact and saw
-the juice stains on Gowtham's coat, leading him to take notice of Naresh's involvement.</p>
-<p>Just as Vishnu Vardhan was about to confront Gowtham, a mysterious man in a black suit, long
-hair, and a trimmed beard approached them. He placed his hand on Gowtham's shoulder,
-turning him around, and discreetly sprayed something on Gowtham's coat. When Gowtham
-finally turned to face Vishnu Vardhan, the professor was surprised to find no trace of juice
-stains on the coat. Intrigued, Vishnu Vardhan left the scene, leaving Gowtham and Naresh
-relieved. They looked at the man in gratitude and curiosity, asking how he managed to remove
-the stains and who he was. The man introduced himself as Ravi and explained that he used his
-"Vanish Spray," which contained ethyl alcohol and chelating agents to break down and remove
-the metal ions in the juice stain. Gowtham interjected, mentioning polyethylene glycol (PEG)
-and dodecyl sulphate (SDS) as surfactants in Ravi's product, confirming his knowledge. The
-two of them embraced, impressed with each other's skills.</p>
-<p>Their conversation was interrupted by Divya, who playfully sprayed a perfume bottle on
-Gowtham's coat, changing the colour from black to blue. This surprised everyone around them.
-Ravi, in a sarcastic tone, commented on Divya's show-off, and Divya responded with a playful
-expression. Amidst the banter, Naresh revealed that the reason he had flipped his glass was
-because of the butterfly drone. Gowtham immediately identified Vivek as the culprit behind
-the drone's actions. Ravi and Divya expressed their determination to handle the situation.
-Naresh assured them that they had already showcased their skills and now it was his turn to
-take action. He took out his flip phone and used its scanning capabilities to detect the butterfly
-drone's communication protocols. With a few taps on his phone, Naresh gained control over
-the drone and made it perform loops of rapid ascents and descents until it eventually exploded.
-Laughter filled the air as they celebrated their successful retaliation.</p>
-<p>After a satisfying dinner, as everyone started leaving the hall, Vivek and his friends Varun and
-Ritik approached Naresh, Gowtham, Divya, and Ravi, seeking retribution for the destruction
-of Vivek's drone. Tensions escalated, and a fight seemed imminent. However, just as things
-were about to escalate further, Vishnu Vardhan's voice echoed through the hall, commanding
-them to run as fast as they could if they wanted to avoid consequences. Without looking back,
-Vivek and his friends sprinted towards their rooms, fearing the professor's wrath.</p>
-<p>The voice resounded loudly, causing everyone to pause in their tracks. It posed a question,
-asking if it should reveal something individually to each of them. Suddenly, Gowtham burst
-into laughter, finding amusement in the situation. He complimented the device, acknowledging
-its impressiveness but pointed out that its timing was off. As he spoke, Shreya emerged from
-the darkness, her face concealed behind a metallic mask. With a sense of intrigue, she removed
-the mask and questioned Gowtham, asking how he knew about her hidden identity. In response,
-Gowtham proudly displayed his phone, which granted him access to all the security cameras
-in the university. He specifically highlighted footage of Vishnu Sir walking near Block A.</p>
-<p>At first, everyone was impressed by Shreya's masked appearance, but as they witnessed
-Gowtham's hacking skills and his control over the security cameras, their reactions shifted to
-awe. Smiles spread across their faces as they exchanged glances, realizing the incredible talents
-within their group. They proceeded to walk together, moving slowly and confidently towards
-their respective rooms.</p>
-<p>Little did they know that the challenges they would encounter in the coming days would not
-only test their scientific abilities but also their moral compass, their loyalty, and their ability to
-keep secrets. The path they had chosen was fraught with danger and uncertainty, and the
-choices they would make would have far-reaching consequences.</p>
-<p>But for now, they allowed themselves a moment of anticipation, excitement, and camaraderie,
-cherishing the memories of the day they first met—the day that would forever bind their fates
-together and set them on a collision course with destiny.</p>
-<p>The next chapter of their journey awaited, and with it, the unfolding of a mystery that would
-grip them all, pushing them to their limits and forcing them to confront the darkness that lurked
-within their own hearts.</p>
 7:["$","article",null,{"className":"prose prose-lg mx-auto py-16 px-4 max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-extrabold mb-4","children":"MAD"}],["$","p",null,{"className":"text-sm text-gray-500 mb-8","children":"5/19/2025"}],["$","section",null,{"className":"prose prose-lg lg:prose-xl space-y-6 text-justify mx-auto","style":{"textAlign":"justify"},"dangerouslySetInnerHTML":{"__html":"$15"}}],["$","div",null,{"className":"mt-12 flex justify-between text-indigo-600"}]]}]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 b:null
