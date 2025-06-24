@@ -1,0 +1,419 @@
+1:"$Sreact.fragment"
+2:I[9243,["955","static/chunks/955-5bb8bede1105d7fa.js","334","static/chunks/334-c2648384253b43c8.js","81","static/chunks/81-2c70e6b2fc717890.js","177","static/chunks/app/layout-0eeb3451799608b2.js"],""]
+3:I[2162,["955","static/chunks/955-5bb8bede1105d7fa.js","334","static/chunks/334-c2648384253b43c8.js","81","static/chunks/81-2c70e6b2fc717890.js","177","static/chunks/app/layout-0eeb3451799608b2.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[9586,["955","static/chunks/955-5bb8bede1105d7fa.js","334","static/chunks/334-c2648384253b43c8.js","81","static/chunks/81-2c70e6b2fc717890.js","177","static/chunks/app/layout-0eeb3451799608b2.js"],"default"]
+8:I[9665,[],"MetadataBoundary"]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[6614,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/c82bcd0a0d5e7906.css","style"]
+0:{"P":null,"b":"wv6K5Iq8T-zQqIYdsLnkA","p":"","c":["","blogs","GenerativeAI"],"i":false,"f":[[["",{"children":["blogs",{"children":[["postId","GenerativeAI","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c82bcd0a0d5e7906.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["blogs",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postId","GenerativeAI","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","E6ekNcJq59FlpIMiu6oj1",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+12:"$Sreact.suspense"
+13:I[4911,[],"AsyncMetadata"]
+9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
+c:null
+15:T3fd5,<h2><strong>What You’re Missing About Generative AI — Hidden Truths &#x26; Real Use Cases</strong></h2>
+<h3><strong>What is Generative AI?</strong></h3>
+<p>Generative AI refers to models that can create new content — from text to images, audio, and even entire videos — by learning patterns from massive datasets. Unlike traditional rule-based systems, these models don’t just retrieve data; they <strong>generate entirely new outputs</strong>, mimicking human creativity.</p>
+<p>What used to take a team of experts can now be prompted into existence with a single sentence.</p>
+<hr>
+<h2><strong>A Brief History of Generative AI: From Math to Mind-blowing Creativity</strong></h2>
+<p>Before ChatGPT could write poems or Midjourney could paint masterpieces, Generative AI was just a research curiosity — more theory than tool. Its journey is one of evolution, experimentation, and explosive breakthroughs.</p>
+<p>Here’s how we got here:</p>
+<hr>
+<h3><strong>1950s–1980s: The Foundational Ideas</strong></h3>
+<ul>
+<li>
+<p><strong>1950:</strong> Alan Turing poses <em>“Can machines think?”</em> — kickstarting the AI debate.</p>
+</li>
+<li>
+<p><strong>1956:</strong> The term <em>Artificial Intelligence</em> is coined at the Dartmouth Conference.</p>
+</li>
+<li>
+<p>Early AI was symbolic and rule-based. “Creativity” wasn’t even part of the conversation yet.</p>
+</li>
+<li>
+<p>Generative ideas were mathematical — think <em>Markov chains</em> or <em>Bayesian models</em> — not artistic.</p>
+</li>
+</ul>
+<hr>
+<h3><strong>1980s–1990s: The Rise of Neural Networks</strong></h3>
+<ul>
+<li>
+<p><strong>1986:</strong> <em>Backpropagation</em> algorithm is introduced — making training multi-layer neural networks practical.</p>
+</li>
+<li>
+<p>Still, computers were too slow and data too scarce for anything beyond toy models.</p>
+</li>
+<li>
+<p>AI remained mostly in labs, not in daily life.</p>
+</li>
+</ul>
+<hr>
+<h3><strong>2000s: Machine Learning Gets Serious</strong></h3>
+<ul>
+<li>
+<p>With more data and better compute (thanks to GPUs), machine learning grew rapidly.</p>
+</li>
+<li>
+<p>AI could now “learn” from examples — but it still wasn’t <em>generative</em>.<br>
+It classified, sorted, predicted — but didn’t create.</p>
+</li>
+</ul>
+<hr>
+<h3><strong>2014: The Breakthrough Moment — GANs</strong></h3>
+<ul>
+<li>
+<p><strong>Generative Adversarial Networks (GANs)</strong> were introduced by Ian Goodfellow.</p>
+</li>
+<li>
+<p>GANs are a game between two networks — a <em>generator</em> and a <em>discriminator</em>.<br>
+The result? AI that could <strong>create new images, music, even faces</strong> from scratch.</p>
+</li>
+<li>
+<p>This was the first time machines <em>generated</em> realistic content — art, fashion, media took notice.</p>
+</li>
+</ul>
+<hr>
+<h3><strong>2017–2020: The Language Revolution</strong></h3>
+<ul>
+<li>
+<p><strong>2017:</strong> Google releases <em>Transformer</em> architecture — the game-changer behind modern Gen AI.</p>
+</li>
+<li>
+<p>Transformers can handle long-range context and parallelize training — perfect for language tasks.</p>
+</li>
+<li>
+<p><strong>2018–2020:</strong> OpenAI’s GPT-2 and GPT-3 are released. They can:</p>
+<ul>
+<li>
+<p>Write essays</p>
+</li>
+<li>
+<p>Translate languages</p>
+</li>
+<li>
+<p>Code, joke, argue</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Suddenly, Gen AI wasn’t niche — it was <em>everywhere</em>.</p>
+</li>
+</ul>
+<hr>
+<h3><strong>2021–2023: OpenAI, Stability, and the Creative Explosion</strong></h3>
+<ul>
+<li>
+<p><strong>DALL·E, CLIP, Codex</strong>: AI starts generating not just words, but images and code.</p>
+</li>
+<li>
+<p><strong>Midjourney, Stable Diffusion</strong>: Image generation tools go viral, democratizing creativity.</p>
+</li>
+<li>
+<p><strong>ChatGPT</strong> (Dec 2022): A user-friendly chatbot powered by GPT-3.5 (and later GPT-4) becomes a household name.</p>
+</li>
+<li>
+<p><strong>Suno, Runway, Pika</strong>: Audio and video generation catch up — AI is now multi-sensory.</p>
+</li>
+</ul>
+<hr>
+<h3><strong>2024 and Beyond: The Multimodal Era</strong></h3>
+<ul>
+<li>
+<p><strong>Sora by OpenAI</strong>: Text-to-video with cinematic quality — blurring the line between prompt and production.</p>
+</li>
+<li>
+<p><strong>Multimodal models</strong> like GPT-4o combine <strong>text, image, audio, and video</strong> into a single model — like having an AI co-pilot who can read, see, hear, and speak.</p>
+</li>
+<li>
+<p>Open-source models (Mistral, LLaMA, Falcon) empower developers globally</p>
+</li>
+</ul>
+<h3><strong>Why Is It Suddenly Everywhere?</strong></h3>
+<p>A few key reasons:</p>
+<ul>
+<li>
+<p><strong>Transformer architecture</strong> (like GPT, BERT) made it possible to model language context better than ever.</p>
+</li>
+<li>
+<p><strong>Open-source models and APIs</strong> like ChatGPT, Claude, and Stable Diffusion made powerful tools accessible to all.</p>
+</li>
+<li>
+<p><strong>Cloud computing and GPUs</strong> are cheaper and faster now, enabling real-time generation.</p>
+</li>
+<li>
+<p>Most importantly, <strong>user interfaces have become intuitive</strong> — you don’t need to be a developer anymore to use AI creatively.</p>
+</li>
+</ul>
+<p>The result? A Cambrian explosion of content, tools, and ideas — many of them AI-generated.</p>
+<hr>
+<h3><strong>Who Is Using It?</strong></h3>
+<ul>
+<li>
+<p><strong>Students</strong>: writing essays, generating presentations</p>
+</li>
+<li>
+<p><strong>Marketers</strong>: creating content calendars, campaign slogans</p>
+</li>
+<li>
+<p><strong>Developers</strong>: writing boilerplate code, debugging</p>
+</li>
+<li>
+<p><strong>Designers</strong>: prototyping visuals, branding assets</p>
+</li>
+<li>
+<p><strong>Startups</strong>: building MVPs using AI-generated UX and code</p>
+</li>
+<li>
+<p><strong>Entertainers</strong>: auto-tuning vocals, creating AI-generated music videos</p>
+</li>
+</ul>
+<p>It’s not limited to tech-savvy folks anymore. From kindergarten teachers using AI to draft lesson plans to indie musicians collaborating with voice clones — <strong>Gen AI is mainstream</strong>.</p>
+<hr>
+<h3><strong>What Most People Are Missing About Gen AI</strong></h3>
+<p>Despite its popularity, there are <strong>five truths</strong> people often overlook:</p>
+<ol>
+<li>
+<p><strong>Generative AI doesn’t <em>understand</em> — it <em>predicts</em>.</strong><br>
+It generates the most statistically probable next word, pixel, or sound — not necessarily the most meaningful or correct one.</p>
+</li>
+<li>
+<p><strong>Bias is baked in.</strong><br>
+AI reflects the data it was trained on. That includes human stereotypes, misinformation, and cultural biases — amplified at scale.</p>
+</li>
+<li>
+<p><strong>It can hallucinate facts.</strong><br>
+Especially in text and code, Gen AI can generate responses that <em>sound</em> plausible but are totally wrong.</p>
+</li>
+<li>
+<p><strong>It’s not always legal.</strong><br>
+Many models are trained on copyrighted or proprietary data. This opens up grey areas in IP law, especially in art, code, and music.</p>
+</li>
+<li>
+<p><strong>It’s energy-hungry.</strong><br>
+Training large models consumes immense computational power and energy — raising sustainability concerns rarely discussed in AI hype.</p>
+</li>
+</ol>
+<hr>
+<h3><strong>What Is Gen AI Used For? (Real Tools, Real Tasks)</strong></h3>
+<h4><strong>1. Image Generation</strong></h4>
+<ul>
+<li>
+<p><strong><a href="https://www.midjourney.com/">Midjourney</a></strong><br>
+Text-to-image generation with surreal, stylized art quality.</p>
+</li>
+<li>
+<p><strong><a href="https://openai.com/dall-e">DALL·E 3 by OpenAI</a></strong><br>
+Highly detailed and accurate images, now integrated with ChatGPT.</p>
+</li>
+<li>
+<p><strong>Stable Diffusion</strong><br>
+Open-source, customizable image model for everything from photorealism to abstract art.</p>
+</li>
+<li>
+<p><strong><a href="https://ideogram.ai/">Ideogram</a></strong><br>
+Best known for generating images with <strong>realistic-looking text</strong> (posters, signs, branding).</p>
+</li>
+</ul>
+<hr>
+<h4><strong>2. Presentation (PPT) Generation</strong></h4>
+<ul>
+<li>
+<p><strong><a href="https://gamma.app/">Gamma.app</a></strong><br>
+Turn ideas or prompts into full decks with engaging visuals.</p>
+</li>
+<li>
+<p><strong><a href="https://tome.app/">Tome</a></strong><br>
+Create storytelling-style presentations with text, images, and web content.</p>
+</li>
+<li>
+<p><strong><a href="https://www.beautiful.ai/">Beautiful.ai</a></strong><br>
+Smart templates that adapt to your content automatically — professional and clean.</p>
+</li>
+</ul>
+<hr>
+<h4><strong>3. Code Generation</strong></h4>
+<ul>
+<li>
+<p><strong><a href="https://github.com/features/copilot">GitHub Copilot</a></strong><br>
+Autocompletes code in real time, trained on millions of public repos.</p>
+</li>
+<li>
+<p><strong><a href="https://replit.com/learn/intro-to-ghostwriter">Replit Ghostwriter</a></strong><br>
+Built into an online IDE — great for learning, prototyping, and real-time feedback.</p>
+</li>
+<li>
+<p><strong><a href="https://aws.amazon.com/codewhisperer/">Amazon CodeWhisperer</a></strong><br>
+AWS-native coding assistant with a focus on security and enterprise integration.</p>
+</li>
+</ul>
+<hr>
+<h4><strong>4. Song &#x26; Audio Generation</strong></h4>
+<ul>
+<li>
+<p><strong><a href="https://suno.ai/">Suno.ai</a></strong><br>
+Compose entire songs from text prompts — vocals and all.</p>
+</li>
+<li>
+<p><strong><a href="https://www.udio.com/">Udio</a></strong><br>
+Realistic singing voice generation with lyrical coherence.</p>
+</li>
+<li>
+<p><strong><a href="https://openai.com/research/jukebox">Jukebox by OpenAI</a></strong><br>
+Neural net for generating music with vocals in various styles (research-level).</p>
+</li>
+<li>
+<p><strong><a href="https://www.voicemod.net/en/ai-voices/">Voicemod AI</a></strong><br>
+Real-time voice filters, character voices, and song effects — fun and viral.</p>
+</li>
+</ul>
+<hr>
+<h4><strong>5. Idea Generation &#x26; Brainstorming</strong></h4>
+<ul>
+<li>
+<p><strong><a href="https://chat.openai.com/">ChatGPT</a></strong><br>
+Your go-to tool for ideation, writing help, and planning anything.</p>
+</li>
+<li>
+<p><strong><a href="https://www.notion.com/help/guides/category/ai">Notion AI</a></strong><br>
+Embed brainstorming, writing, and organizing inside your workspace.</p>
+</li>
+<li>
+<p><strong><a href="https://www.jasper.ai/">Jasper</a></strong><br>
+Tailored for marketers and copywriters — blog posts, ads, and taglines.</p>
+</li>
+<li>
+<p><strong><a href="https://www.perplexity.ai/">Perplexity AI</a></strong><br>
+Real-time AI search with citations — great for research and content drafting.</p>
+</li>
+</ul>
+<hr>
+<h4><strong>6. Video Generation</strong></h4>
+<ul>
+<li>
+<p><strong><a href="https://www.pika.art/">Pika Labs</a></strong><br>
+Generate short animated videos directly from prompts.</p>
+</li>
+<li>
+<p><strong><a href="https://runwayml.com/">Runway ML</a></strong><br>
+Popular for AI-powered video editing, green screen effects, and motion tracking.</p>
+</li>
+<li>
+<p><strong><a href="https://openai.com/sora">Sora by OpenAI</a></strong> <em>(early access)</em><br>
+Text-to-video model that generates cinematic clips with astonishing detail.</p>
+</li>
+</ul>
+<hr>
+<h2>The Future of Generative AI: What’s Coming Next?</h2>
+<p>Generative AI is no longer a novelty — it’s a foundational technology. As it evolves, we’re entering a new phase where Gen AI isn't just a content creator but a <strong>collaborator, decision-maker, and creative partner</strong>.</p>
+<p>Here’s what the next 3–5 years are likely to bring:</p>
+<hr>
+<h3>1. <strong>Multi modal Models Become the Norm</strong></h3>
+<p>Gen AI is moving from “text-only” to models that <strong>see, speak, hear, and act</strong>.</p>
+<ul>
+<li>
+<p><strong>OpenAI’s GPT-4o</strong> integrates text, vision, and voice — hinting at more <strong>real-time, emotionally aware AI companions</strong>.<br>
+📎 Source: <a href="https://openai.com/index/gpt-4o-and-new-chatgpt-experience">OpenAI GPT-4o launch</a></p>
+</li>
+<li>
+<p><strong>Google Gemini</strong>, <strong>Meta’s LLaMA 3</strong>, and <strong>Anthropic’s Claude 3</strong> are also integrating multimodal capabilities.</p>
+</li>
+</ul>
+<hr>
+<h3>2. <strong>Autonomous AI Agents and “AI Co-workers”</strong></h3>
+<p>Instead of prompting every task, users will rely on <strong>AI agents</strong> that take initiative and complete complex workflows.</p>
+<ul>
+<li>
+<p><strong>AutoGPT</strong>, <strong>BabyAGI</strong>, and <strong>Devin (by Cognition AI)</strong> show early prototypes of AI that:</p>
+<ul>
+<li>
+<p>Plan tasks</p>
+</li>
+<li>
+<p>Search online</p>
+</li>
+<li>
+<p>Write and run code</p>
+</li>
+<li>
+<p>Adapt to feedback</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>📎 Source: <a href="https://www.cognition-labs.com/">Cognition AI Devin</a> | <a href="https://github.com/Torantulino/Auto-GPT">AutoGPT GitHub</a></p>
+<hr>
+<h3>3.  <strong>AI in Scientific Discovery &#x26; Healthcare</strong></h3>
+<p>Gen AI will play a growing role in <strong>drug discovery, clinical documentation, and diagnostics</strong>.</p>
+<ul>
+<li>
+<p><strong>AlphaFold (DeepMind)</strong> has revolutionized protein structure prediction.</p>
+</li>
+<li>
+<p><strong>Google Med-PaLM 2</strong> and <strong>OpenAI's BioGPT</strong> are built for medical reasoning and summarization.</p>
+</li>
+</ul>
+<p>📎 Source: <a href="https://www.nature.com/articles/d41586-021-02025-4">Nature: AlphaFold success</a></p>
+<hr>
+<h3>4.  <strong>Text-to-Video Will Reshape Creative Industries</strong></h3>
+<p>Tools like <strong>Sora (OpenAI)</strong> and <strong>Runway ML Gen-3</strong> will allow you to generate cinematic videos from text — no camera needed.</p>
+<ul>
+<li>
+<p>Hollywood, advertising, and indie creators will <strong>co-create with AI</strong> rather than outsource or hire.</p>
+</li>
+<li>
+<p>AI actors, AI voiceovers, and fully synthetic films will raise new legal and ethical challenges.</p>
+</li>
+</ul>
+<p>📎 Source: <a href="https://openai.com/sora">OpenAI Sora</a> | <a href="https://runwayml.com/research/introducing-gen-3-alpha">Runway ML Gen-3</a></p>
+<hr>
+<h3>5.  <strong>AI Governance, Regulation, and Ethics Will Intensify</strong></h3>
+<ul>
+<li>
+<p>Expect national and international policies on <strong>AI watermarking, copyright, misinformation, and safety</strong>.</p>
+</li>
+<li>
+<p>The <strong>EU AI Act</strong>, <strong>Biden’s AI Executive Order</strong>, and the <strong>UK AI Safety Summit</strong> are early steps toward global regulation.</p>
+</li>
+</ul>
+<p>📎 Source: <a href="https://artificialintelligenceact.eu/">EU AI Act Summary</a></p>
+<hr>
+<h3>6.  <strong>AI Will Shift Job Roles — But Not Always Replace Them</strong></h3>
+<ul>
+<li>
+<p>McKinsey predicts up to <strong>30% of work hours could be automated by 2030</strong>, especially in knowledge and creative industries.</p>
+</li>
+<li>
+<p>The key is not replacement, but <strong>job transformation</strong> — humans will need to upskill in <strong>prompt engineering, AI ethics, and system design</strong>.</p>
+</li>
+</ul>
+<p>📎 Source: McKinsey Future of Work Report</p>
+<hr>
+<h3>7.  <strong>The Rise of Emotionally Aware and “Self-Reflective” AI</strong></h3>
+<ul>
+<li>
+<p>Emerging research is focused on <strong>AI theory of mind</strong>, emotional intelligence, and social reasoning.</p>
+</li>
+<li>
+<p>Models like <strong>Claude 3 Opus</strong> claim early steps in understanding human intentions and feelings — enabling more sensitive interaction.</p>
+</li>
+</ul>
+<p>📎 Source: <a href="https://www.anthropic.com/news/claude-3-family">Anthropic Claude 3</a></p>
+<hr>
+<h3><strong>Final Thoughts: The Real Work Starts After Generation</strong></h3>
+<p>Generative AI is a spark, not a solution. It can accelerate creativity, but <strong>human judgment, editing, and purpose remain irreplaceable</strong>.</p>
+<p>If you’re using Gen AI without asking <em>why</em>, <em>how</em>, and <em>what’s missing</em>, you’re just automating the obvious.<br>
+But if you’re using it to challenge how we think, create, and collaborate — then you’re tapping into something revolutionary.</p>
+<p>Generative AI won’t replace your job — <strong>but someone who knows how to prompt it well just might.</strong></p>
+<hr>
+7:["$","main",null,{"className":"pt-16 pb-20 max-w-3xl mx-auto px-4","children":[["$","h1",null,{"className":"text-4xl font-extrabold mb-2","children":"What You’re Missing About Generative AI — Hidden Truths & Real Use Cases"}],["$","p",null,{"className":"text-sm text-gray-500 mb-6","children":"5/19/2025"}],["$","article",null,{"className":"prose prose-lg text-justify mb-12","dangerouslySetInnerHTML":{"__html":"$15"}}],["$","div",null,{"className":"mt-6","children":[["$","span","AI",{"className":"inline-block bg-gray-200 px-2 py-1 text-sm rounded mr-2","children":["#","AI"]}],["$","span","GenerativeAI",{"className":"inline-block bg-gray-200 px-2 py-1 text-sm rounded mr-2","children":["#","GenerativeAI"]}]]}]]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+14:{"metadata":[["$","title","0",{"children":"CSKN"}],["$","meta","1",{"name":"description","content":"CSKN Website"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}

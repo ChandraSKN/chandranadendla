@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[9243,["955","static/chunks/955-d07f8abe672ac9be.js","992","static/chunks/992-b506699f5640b43c.js","555","static/chunks/555-a8a41dee200d6a87.js","81","static/chunks/81-c59f9954b75e3d3e.js","177","static/chunks/app/layout-f1c46aea4053ebc4.js"],""]
-3:I[2162,["955","static/chunks/955-d07f8abe672ac9be.js","992","static/chunks/992-b506699f5640b43c.js","555","static/chunks/555-a8a41dee200d6a87.js","81","static/chunks/81-c59f9954b75e3d3e.js","177","static/chunks/app/layout-f1c46aea4053ebc4.js"],"default"]
+2:I[9243,["955","static/chunks/955-5bb8bede1105d7fa.js","334","static/chunks/334-c2648384253b43c8.js","81","static/chunks/81-2c70e6b2fc717890.js","177","static/chunks/app/layout-0eeb3451799608b2.js"],""]
+3:I[2162,["955","static/chunks/955-5bb8bede1105d7fa.js","334","static/chunks/334-c2648384253b43c8.js","81","static/chunks/81-2c70e6b2fc717890.js","177","static/chunks/app/layout-0eeb3451799608b2.js"],"default"]
 4:I[7555,[],""]
 5:I[1295,[],""]
-6:I[9586,["955","static/chunks/955-d07f8abe672ac9be.js","992","static/chunks/992-b506699f5640b43c.js","555","static/chunks/555-a8a41dee200d6a87.js","81","static/chunks/81-c59f9954b75e3d3e.js","177","static/chunks/app/layout-f1c46aea4053ebc4.js"],"default"]
+6:I[9586,["955","static/chunks/955-5bb8bede1105d7fa.js","334","static/chunks/334-c2648384253b43c8.js","81","static/chunks/81-2c70e6b2fc717890.js","177","static/chunks/app/layout-0eeb3451799608b2.js"],"default"]
 8:I[9665,[],"MetadataBoundary"]
 a:I[9665,[],"OutletBoundary"]
 d:I[4911,[],"AsyncMetadataOutlet"]
@@ -11,52 +11,352 @@ f:I[9665,[],"ViewportBoundary"]
 11:I[6614,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/c000cd66119fc79f.css","style"]
-0:{"P":null,"b":"GjbSLP6bY2d5VfbZHiS1z","p":"","c":["","stories","MAD"],"i":false,"f":[[["",{"children":["stories",{"children":[["storyId","MAD","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c000cd66119fc79f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["stories",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["storyId","MAD","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","OPOcUZWYrHWA1wR-WlOWh",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+:HL["/_next/static/css/c82bcd0a0d5e7906.css","style"]
+0:{"P":null,"b":"wv6K5Iq8T-zQqIYdsLnkA","p":"","c":["","stories","MAD"],"i":false,"f":[[["",{"children":["stories",{"children":[["storyId","MAD","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c82bcd0a0d5e7906.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["stories",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["storyId","MAD","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","5Dr2W-TPhTb7b2twcAgTQ",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
 12:"$Sreact.suspense"
 13:I[4911,[],"AsyncMetadata"]
 9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
 c:null
 16:I[4122,["982","static/chunks/982-a53acd60674b4fb6.js","465","static/chunks/app/stories/%5BstoryId%5D/page-3b12c2663f42fe4b.js"],"default"]
-15:T15fd,<h3><strong>Chapter 1: My First Murder</strong></h3>
+15:T7266,<h3><strong>Chapter 1: My First Murder</strong></h3>
 <p>In the busy city of Mumbai, life never stopped. The sun was going down, and the sky turned orange and purple. All around, people hurried home, street vendors packed up, and cars honked in traffic. In the middle of this rush stood <strong>Sarasvati Siksha University (SSU)</strong>, a place where students studied hard and hoped for a bright future.</p>
-<p>Gowtham, a young man with restless thoughts, sat alone in his car in the university’s parking lot. The bright lights of the campus buildings felt far away. As he stared at his phone, a call came in from Ravi. Gowtham’s heart raced.</p>
-<p>“I’m coming. Give me ten minutes,” he said, voice shaking.</p>
-<p>“Come fast. We need to move the body,” Ravi replied in a low, urgent tone. Gowtham’s blood ran cold.</p>
-<p>On his phone, Gowtham opened a secret app he used to control the college’s security gates. He tapped a button, and a message flashed: <strong>“Car park access granted.”</strong> The metal barrier lifted with a loud screech. He jumped out of the car and ran toward the main building, checking his watch every few seconds.</p>
-<p>Inside, the corridors were dim and quiet, lit only by faint emergency lights. Gowtham’s watch beeped, and a small red light appeared on his wrist. Ahead, he saw a figure step out of the shadows. It was Shreya, his girlfriend. Relief and fear mixed in his chest as he threw his arms around her.</p>
-<p>“It’s okay,” he whispered. “I’m here.”</p>
-<p>Behind her, three more friends emerged—Ravi, Divya, and Naresh. Their faces were pale and worried. Gowtham rushed to Ravi. “What happened?” he asked, voice low.</p>
-<p>Divya’s lips trembled. “Murder,” she said in a whisper.</p>
-<p>Ravi shook his head. “We don’t know yet,” he said carefully.</p>
-<p>Divya gave him a short laugh. “In what world does a person die naturally in the university theatre?” she asked, sounding bitter.</p>
-<p>Gowtham frowned. “Why haven’t we called the police?” he pressed.</p>
-<p>The group fell silent. Everyone looked at everyone else. Finally, Gowtham turned to Shreya. “Shreya, tell me,” he urged.</p>
-<p>She hesitated, then glanced at Ravi. “G… actually…” Her voice trailed off.</p>
-<p>“Ravi, you tell him,” Gowtham said sharply.</p>
-<p>Ravi’s voice shook. “There was a knife… and fingerprints… and footprints,” he mumbled.</p>
-<p>Divya’s eyes flashed at Ravi. “This is your fault. Dad warned me about your reckless ways. And now look where we are.”</p>
-<p>Ravi looked hurt. “He really said that?” he whispered.</p>
-<p>Divya shrugged. “More or less.”</p>
-<p>Gowtham watched them all, uneasy. Then Naresh spoke up, voice quiet. “I think we messed up. I saw Ravi holding the knife next to the body.”</p>
-<p>Ravi snapped back, “I saw Shreya holding it when she came into the theatre.”</p>
-<p>Shreya’s face twisted in frustration. “That wasn’t a knife—it was a hair clip!”</p>
-<p>Divya sighed. “I didn’t do anything. I just followed Ravi.”</p>
-<p>Gowtham raised his hand. “Enough. What exactly happened?”</p>
-<p>Naresh swallowed hard. “All four of us left our fingerprints and footprints on the body and around the hall. If we tell anyone, no one will believe us.”</p>
-<p>Just then, Divya gasped. “The body… it’s gone!”</p>
-<p>They all looked at the spot she pointed to. The corpse was gone. Only a pool of blood remained on the floor. Panic swept through them.</p>
-<p>Ravi’s face went pale. “No body, no weapon… our footprints are the only proof against us.”</p>
-<p>Naresh spoke up again, quietly. “We should clean everything before someone notices.”</p>
-<p>Everyone nodded. They knew he was right. They crept into the theatre’s storage room and found mops, clothes, and cleaning spray. Gowtham grabbed a wet mop, Ravi took a dry one, Shreya and Naresh picked up clothes, and Divya held a feather duster.</p>
-<p>Ravi teased Divya as she held the duster. “What will you do with that?”</p>
-<p>Divya managed a weak smile. “Hey, it’s my first murder… first time I’ve seen one, at least.”</p>
-<p>They worked in tense silence, scrubbing the floor and walls. The smell of bleach mixed with the faint metallic scent of blood. Every creak of the floor made their hearts pound faster.</p>
-<p>As they cleaned, something unexpected happened: they began to help one another, passing tools and gently guiding each other’s arms. In that terrible moment, they relied on each other completely.</p>
-<p>Minutes passed like hours. Finally, the last bloodstain vanished. The theatre hall looked spotless, as if nothing had ever happened. They dropped their tools, exhausted and shaken.</p>
-<p>They looked around at each other. What they had done—covering up a crime scene—felt wrong, but they saw no other choice. Outside, the night was dark and silent. They left the hall one by one, hearts heavy with guilt.</p>
-<p>On the steps, Gowtham paused. He thought about the missing body and the hidden knife. Some part of him feared this was only the beginning. They had cleaned away the proof, but they could not erase what they had seen—or what they might do next.</p>
-<p>As they disappeared into the Mumbai night, each of them carried a secret that would bind them together—and call their loyalty and courage into question. The first murder they ever faced had changed everything. They were no longer just students at SSU. They were something else now, and they didn’t know if they could ever go back to the way things were before.</p>
+<p>Gowtham, a young man with a restless spirit, found himself in the dimly lit depths of the
+university’s car park. As he sat in his car, the world outside faded into obscurity, shielding him
+from the clamour of Mumbai's relentless energy. Lost in his thoughts, he was startled by the
+shrill ring of his phone. Its screen displayed the name 'Ravi,' and without hesitation, Gowtham
+answered.</p>
+<p>'I am coming, give me ten minutes,' Gowtham replied hurriedly, his voice laced with urgency.
+Ravi's terse response, 'Come fast, we need to move the body,' sent a chill down Gowtham's
+spine.</p>
+<p>With nimble fingers, Gowtham accessed a clandestine app on his phone, an indispensable tool
+that granted him control over the college's security systems. A swift click of a switch button
+within the app triggered a notification, 'Car park access granted.' The gates groaned open,
+allowing him passage. Exiting his car, Gowtham sprinted toward the door, his eyes fixated on
+his watch, the minutes ticking away relentlessly.</p>
+<p>Through the labyrinthine corridors, Gowtham navigated, his watch screen continuously
+swiped, as if trying to manipulate time itself. Finally, he arrived at a dimly lit location,
+illuminated only by feeble emergency lights scattered along the walls. The atmosphere was
+heavy with anticipation as Gowtham tapped his watch, causing a small red light to emanate,
+accompanied by a subtle beep. In the soft glow, a young woman emerged, her silhouette hinting
+at a familiar figure. Without hesitation, she rushed towards Gowtham, enveloping him in a tight
+embrace. It was Shreya, the object of Gowtham's affection. In that moment, their worlds
+converged, offering solace amidst the turmoil that awaited them.</p>
+<p>Soon, three more figures emerged from the shadows. Ravi, Divya, and Naresh, their faces
+etched with a mixture of worry and trepidation. As Gowtham approached them, his voice
+strained with concern, he called out to Ravi, demanding to know what had transpired. Divya
+interjected, her words laced with theatrical flair, 'Murder,' she uttered with a hushed intensity,
+the weight of the unknown heavy upon them. Immediately, Ravi interjected, casting doubt on
+Divya's assumption. "We don't know yet," he replied with a hint of scepticism in his voice.
+Divya's retort came swiftly, laced with sarcasm. "Oh, in what world does a person choose uni
+theatre to die naturally?" she quipped, her words dripping with irony. Ravi responded with a
+bemused look, silently acknowledging the absurdity of the situation.</p>
+<p>Curiosity burned within him, and Gowtham pressed Ravi for an explanation on why he had
+decided not to involve the police. The silence that followed spoke volumes, each member of
+the group exchanging furtive glances. Suspicion gripped Gowtham, and he turned to Shreya,seeking answers. "Shreya, what happened?" he implored, his voice tinged with a mix of
+concern and frustration.</p>
+<p>Shreya hesitated for a moment, her gaze shifting between Gowtham and Ravi. Finally, she
+mustered the courage to speak. "G, actually..." Her voice trailed off, and she looked towards
+Ravi, urging him to reveal the truth. Gowtham's gaze intensified, a flicker of anger creeping
+into his voice. "Ravi, you tell me, “He demanded, his tone laced with a sense of urgency.
+Ravi began to mumble, struggling to find the right words. "Actually, there was a knife... and
+fingerprints... and footprints..." he managed to utter, his voice faltering. Divya's eyes narrowed
+as she locked her gaze onto Ravi, her accusatory tone cutting through the tension. "It's your
+fault. Dad warned me about your irresponsible behaviour. You are going to drag us all down,"
+she asserted, her words seething with resentment.</p>
+<p>Ravi's voice trembled as he responded, shocked by his sister's revelation. "Did Dad really say
+that?" he whispered; his voice filled with disbelief. Divya's sarcastic smirk remained firmly in
+place as she replied, "More or less, the same meaning." Ravi's confusion deepened as he
+questioned Divya's motives. "If you knew I was trouble, why did you follow me?" he asked,
+his voice tinged with hurt. Divya's retort was swift and cutting. "I wanted to know what you
+were hiding," she stated firmly.</p>
+<p>Ravi insisted, "I didn't hide anything from you." Divya, undeterred, fired back, "What about
+the ice cream I left in the fridge? You ate it." Ravi's face contorted in disbelief. "I didn't eat it.
+Ask Mom if you want," he protested. Divya, unyielding, shot back, "Mom always supports
+you. I know." Gowtham observed the exchange with a suspicious gaze, silently keeping his
+own secret about devouring the ice cream.</p>
+<p>Growing impatient, Gowtham intervened, demanding clarity from the group. "Come on, guys.
+Can someone please tell me what happened?" Naresh, who had been silent until now, finally
+spoke up. "I think we messed up," he confessed, his voice filled with a mixture of fear and
+guilt. "I don't know what happened exactly, but I saw Ravi holding the knife next to the body."
+Ravi interrupted, countering Naresh's claim. "I saw Shreya holding the knife and entering the
+theater hall," he insisted, his voice tinged with accusation. Shreya, frustration evident in her
+tone, interjected, "For God's sake, how many times do I have to tell you? That was not a knife;
+it was my hair clip." Divya came in between and said, "I didn't do anything, I just followed
+Ravi." Everyone looked at Divya angrily.</p>
+<p>Gowtham silenced the heated exchange, his voice cutting through the tension. "So, what are
+you all trying to say?" he asked, his gaze shifting between his friends. Naresh spoke up once
+again, revealing a troubling truth. "The whole dead body is covered in all four of our
+fingerprints and footprints," he confessed. "If we inform anyone about it, no one is going to
+trust us."</p>
+<p>As Naresh was explaining their involvement, Divya attempted to speak up, but each time,
+someone interrupted her. Frustration building, she finally shouted, "Guys, the dead body!"
+Everyone turned their attention to Divya, eager to hear what she had to say. With a trembling
+voice, she continued, "The dead body is missing. “All eyes darted towards the spot where Divya
+pointed, only to find an empty space. Surprisingly, there was no trace of the corpse, but the
+entire floor was splattered with blood. Panic gripped the group as they realized the evidencewas vanishing before their eyes. Ravi's hesitation to involve the police suddenly made sense to
+Gowtham. Ravi frantically searched for the murder weapon, but it was nowhere to be found.
+He understood that Ravi's reluctance was driven by their participation in the upcoming SSP
+competition.</p>
+<p>Gowtham and the rest joined the search, scouring every corner of the scene. The tension in the
+air was palpable as they desperately looked for any sign of the missing body or weapon. The
+dimly lit theatre hall added an eerie ambiance to the search, the shadows playing tricks on their
+minds. Each creaking sound and flickering light heightened their anxiety.</p>
+<p>In the midst of the chaos, Divya's fear-stricken voice cut through, "I think we should leave. It's
+getting late, and we've spent too much time at the crime scene." Her suggestion hung in the air,
+and everyone contemplated the consequences of staying any longer. The fear of being caught,
+of the truth unravelling, weighed heavily on their minds.</p>
+<p>Ravi pondered the situation and voiced his concern. "What about our footprints? If there's no
+body or weapon, our footprints will be the only evidence to file a case against us. We won't
+have any proof to defend ourselves." Naresh, who had been quiet until now, spoke up with a
+mysterious tone, his voice filled with an unexpected suggestion. "We should clean up the
+evidence."</p>
+<p>Ravi readily agreed, understanding the urgency of the situation. They couldn't afford to leave
+any trace behind, any shred of evidence that could link them to the crime. The group's collective
+decision was made, acknowledging the risks they faced. They knew they had to clean up the
+crime scene to eliminate any trace of their involvement.</p>
+<p>One by one, they retrieved cleaning tools from the theatre hall's storage room. Gowtham
+grabbed a wet mop, its bristles dripping with water, while Ravi took a dry mop, ready to absorb
+any remaining stains. Naresh and Shreya armed themselves with cloths and cleaning spray,
+their determined expressions masked their fear. Divya, holding a dusting tool in her trembling
+hand, tried to keep up her composure amidst the chaos.</p>
+<p>As the group assembled with their respective tools, Ravi could not resist a sarcastic remark
+directed at Divya, trying to lighten the heavy atmosphere. "What will you do with that?" he
+asked, pointing at the dusting tool. Divya, despite the tension, retorted in the same sarcastic
+tone, a touch of dark humour in her voice, "Sorry, brother, it's my first murder... I mean, the
+first murder I've ever seen."</p>
+<p>With a mixture of trepidation and determination, they set to work. The sound of mops sweeping
+across the bloodstained floor echoed through the empty theatre hall. The pungent smell of
+cleaning chemicals mingled with the metallic scent of blood, creating an odd combination that
+permeated the air. Each member of the group scrubbed and wiped; their movements almost
+robotic as they tried to erase any trace of their presence.</p>
+<p>The task felt never-ending, the minutes stretching into hours as they meticulously cleaned the
+bloodstains, ensuring not a single spot remained. The intensity of their focus was unwavering,
+fuelled by the fear of discovery. Every sound, every creaking floorboard, sent a jolt of anxiety
+through their veins.As they continued their frantic efforts, a newfound sense of unity emerged among the group.</p>
+<p>Despite their conflicting emotions and accusations, they had no choice but to rely on each other
+to escape the clutches of the impending doom. Each stroke of the mop, each spray of the
+cleaning solution, became a symbolic act of trust and solidarity.</p>
+<p>The minutes turned into hours, and exhaustion weighed heavily on their shoulders. Drops of
+sweat rolled down their foreheads, mixing with the remnants of blood on their faces. But they
+persisted, determined to leave no trace behind. The theatre hall slowly transformed from a
+crime scene to a sterile, sanitized space, devoid of any evidence of their involvement.
+Finally, as the last remnants of blood were wiped away, a sense of relief washed over them.
+They had done their best to clean up the mess they had unwittingly become a part of. But the
+underlying unease remained, lingering like a shadow in the back of their minds. The missing
+body, the vanishing evidence—it was a mystery they could not escape.</p>
+<p>Exhausted and emotionally drained, they gathered their cleaning tools, careful to leave no trace
+of their presence behind. As they prepared to leave the theatre hall, the weight of their actions
+settled upon them. They had tampered with a crime scene, hidden the truth, and embarked on
+a dangerous path. The consequences of their choices loomed over them, threatening to unravel
+their lives.</p>
+<p>With heavy hearts, they made their way out of the theatre hall, each step filled with uncertainty.
+The darkness of the night outside mirrored the uncertainty that now engulfed their lives. They
+had crossed a line, and there was no turning back.</p>
+<p>As they dispersed into the night, the events of that evening remained etched in their minds. The
+murder, the missing body, the collective decision to clean up the evidence—they were bound
+together by secrets and guilt. The mystery had just begun, and they were entangled in a web of
+intrigue and danger that would test their loyalty and resilience.</p>
+<p>Little did they know that their actions had set in motion a series of events that would lead them
+deeper into the darkness, unravelling a web of secrets and lies that would threaten not only
+their friendships but also their very lives. The truth was out there, waiting to be discovered, and
+they were about to embark on a journey that would change everything they thought they knew.
+And so, with hearts heavy and minds filled with anticipation, they stepped into the unknown,
+ready to face the consequences of their actions and delve deeper into the intricate puzzle of the
+first murder they had ever encountered. The game had just begun, and the stakes were higher
+than they could have ever imagined</p>
+<hr>
+<p><strong>Chapter 2: The Day We Met</strong></p>
+<p>Perfect crimes may seem flawless as long as they remain secret. However, even the most
+meticulously planned schemes could unravel if those involved fail to remain silent in times of
+adversity. Now, the question arises: can these five individuals truly keep their secret? Are they
+genuinely as close as they appear?</p>
+<p>To uncover the answers, we must trace back to the day they first met, the inception of the SSP
+Club—the origin of their journey.</p>
+<p>Eight months prior, these individuals, excluding Divya and Ravi, had no connection to one
+another. It was a single decision made by Rama Prabha, the head of the Science Group at
+Sarasvati Siksha University (SSU), that would forever alter their lives.</p>
+<p>In an effort to promote practical and application-oriented learning and nurture young talent,
+Rama Prabha launched a program known as the SSP Club—Special Science Projects Club.
+This initiative aimed to select 150 students from colleges across India. Only five of these
+students would secure a coveted spot in the club, entitling them to a scholarship that would
+offer them to study in any top universities like Cambridge, Oxford, Harvard, and Stanford.
+Furthermore, these fortunate individuals would also have the unique opportunity to contribute
+to India's esteemed defence project, Kavach, working closely with the national government.
+However, gaining a spot in the top five required successfully navigating three rounds of
+rigorous selection.</p>
+<p><strong>The Announcement</strong></p>
+<p>The sun cast a warm glow over the sprawling campus of Sarasvati Siksha University (SSU),
+an institution steeped in history and renowned for its rich academic tradition. The old university
+buildings stood tall, their grand architecture a testament to the knowledge that had been
+cultivated within their walls for generations. SSU boasted state-of-the-art laboratories,
+advanced research facilities, and a faculty of highly talented professors who nurtured young
+minds with their wisdom and expertise.</p>
+<p>On a bright morning, the open hall of SSU buzzed with anticipation as 150 aspiring scientists
+and innovators gathered. Their eyes sparkled with hope, each carrying dreams of making a
+mark in the world of science. This was the day they would meet Rama Prabha, the esteemed
+head of the Science Group at SSU and the driving force behind the SSP Club.</p>
+<p>Rama Prabha, a distinguished scientist with a passion for nurturing young talent, stepped onto
+the stage. Her presence commanded attention, and a hushed silence fell over the hall. As she
+began to speak, her voice carried a sense of authority combined with genuine warmth.</p>
+<p>"Welcome, aspiring scientists and innovators," Rama Prabha's words echoed through the hall,
+resonating with a contagious enthusiasm. "Today, we embark on a journey that will push the
+boundaries of your scientific abilities and ignite your creative spirits. The SSP Club
+competition is not just a platform for showcasing your skills; it is an opportunity to transform
+yourselves into true scientific visionaries."</p>
+<p>She paused, allowing her words to sink in, as the participants leaned forward, captivated by her
+presence."You have been chosen from among thousands of students across India for your exceptional
+talent and dedication to the pursuit of knowledge. The SSP Club will test your scientific
+prowess, critical thinking, teamwork, and innovative spirit."</p>
+<p>Rama Prabha's eyes scanned the eager faces before her, taking in the anticipation and
+determination radiating from the students.</p>
+<p><strong>"Let me take you through the three stages that await you in this remarkable journey."</strong></p>
+<ol>
+<li>Stage 1: Group Project Challenge - "The Enigma Experiment" "In this stage, you will
+form groups of five," Rama Prabha continued, her voice filled with excitement. "Each
+group will be assigned a unique scientific problem, known as 'The Enigma Experiment.'
+These problems have been carefully designed to challenge your intellect and creativity.
+Your task is to collaborate, design, and execute an innovative experiment that addresses
+the problem and presents a groundbreaking solution. You will have a limited timeframe
+to conduct your experiments, analyse data, and prepare a comprehensive project report.
+Remember, teamwork is key as you learn to leverage each other's strengths and work
+towards a common goal."</li>
+</ol>
+<p>The participants exchanged glances, their minds already buzzing with ideas, as they
+contemplated the possibilities that lay ahead.</p>
+<ol start="2">
+<li>Stage 2: Face-to-Face Rounds - "Scientific Showdown" "The top-performing groups
+from Stage 1 will advance to the Face-to-Face Rounds," Rama Prabha announced, her
+voice brimming with intensity. "These rounds will be a true test of your scientific
+acumen and problem-solving skills. You will find yourselves in a specially designed
+laboratory setting, facing real-life scientific scenarios. From identifying unknown
+substances to solving complex equations and performing intricate laboratory
+techniques, you must showcase your scientific knowledge under pressure. It is not only
+about individual brilliance but also about effective communication, collaboration, and
+teamwork. Renowned scientists and industry experts will be observing and judging
+each challenge, assessing your ability to apply scientific principles effectively in a
+competitive environment."</li>
+</ol>
+<p>The room filled with a mix of determination and nervous anticipation as the participants
+absorbed the magnitude of the challenges that awaited them.</p>
+<ol start="3">
+<li>Stage 3: Individual Prototype Showcase - "Innovation Expo" "Forthe final stage," Rama
+Prabha continued, her voice filled with anticipation, "the competition will shift to
+individual performance, where each participant will have the opportunity to showcase
+their unique scientific talents and innovations."</li>
+</ol>
+<p>She paused, a smile gracing her lips as she observed the enthusiasm and curiosity in the eyes
+of the participants.</p>
+<p>"In the Individual Prototype Showcase, you will have the freedom to explore any area of
+science that aligns with your interests and expertise. This is your chance to delve deep into
+your chosen scientific field and develop your own prototype—an embodiment of your
+creativity and scientific prowess. Your prototypes will be presented at the grand 'Innovation
+Expo,' a gathering attended by esteemed scientists, industry leaders, and the public. Theevaluation criteria will focus on innovation, practicality, scientific rigor, and the potential
+impact your prototype can have on society."</p>
+<p>The participants exchanged excited whispers, their minds already buzzing with ideas for their
+individual prototypes, envisioning the possibilities and impact their creations could make.
+"I have faith in each and every one of you," Rama Prabha concluded, her voice filled with pride
+and encouragement. "You have been handpicked for this extraordinary opportunity because
+you possess the passion, talent, and dedication that can shape the future of scientific
+exploration. Embrace this journey, learn from one another, and let your scientific spirits soar."</p>
+<p>As Rama Prabha stepped off the stage, a renewed sense of purpose filled the hall. The
+participants could feel the weight of responsibility and the magnitude of the competition. They
+knew that SSU, with its rich history and exceptional resources, had provided them with the
+platform they needed to shine.</p>
+<p><strong>The Dinner</strong></p>
+<p>After Rama Prabha's speech, the open hall reverberated with a cacophony of voices as the
+participants engaged in excited chatter. Anticipation and nervous energy filled the atmosphere,
+creating a palpable buzz. However, the sudden interruption of Dr Vishnu Vardhan, the
+psychology professor, brought an immediate hush over the room. Dr Vardhan, a commanding
+presence with his tall stature, broad shoulders, and muscular build, stepped forward, casting a
+shadow of silence over the crowd.</p>
+<p>"Sorry, everyone," Dr Vardhan announced, his voice cutting through the noise. "The
+competition has been cancelled." A wave of surprise and disappointment washed over the
+participants as they turned their attention to the professor.</p>
+<p>Dr Vardhan, wearing a peculiar smile, continued, "But let me tell you, this statement can be
+true for anyone of you at any moment if I catch you making any mistakes." He paused for a
+moment, letting his words sink in. "I will share an interesting quote that might give you clarity
+about your stay here for the next nine months: 'For surviving a hundred times, you need to be
+lucky a hundred times. But to die, you just need to be unlucky once.'"</p>
+<p>His words hung heavy in the air, and the room fell into a contemplative silence. Dr Vardhan's
+gaze swept across the room as he continued, "SSU is not here to make your individual futures
+bright; that responsibility lies with your parents. We are here to make the world bright, and for
+that, I will not hesitate to push you all into the darkness. I know some of you might think I am
+a sadist, questioning how one's behaviour can be used to judge their talent. But believe me, I
+am much more than what you think. This is an opportunity that has the power to change your
+lives. So, limit your actions, not your thoughts."</p>
+<p>The weight of Dr Vardhan's words settled upon the participants, leaving them with a mix of
+uncertainty and determination. They understood that their journey at SSU would be
+challenging, and that success would require more than just scientific knowledge and skills.
+Dr Vishnu Vardhan concluded by reminding everyone to dress appropriately and join the
+dinner, emphasizing the importance of maintaining good behaviour throughout the evening.The evening arrived, and one by one, the participants made their way into the hall around 7:00
+PM. Among the crowd, a lady dressed in a stunning red long dress caught everyone's attention.
+It was none other than Shreya, who seemed to have a group of admirers following her every
+move. On the other hand, Naresh, the unnoticed figure, entered the hall in an old suit that looked
+older than the university itself.</p>
+<p>While Shreya became the centre of attention, male students like Gowtham and Vivek engaged
+in a silent competition to impress the female students. Gowtham, dressed impeccably as a
+gentleman, caught the eyes of many, but he seemed disinterested in the beauty competition
+unfolding before him. Instead, he quietly sipped a fruit punch in a corner. Vivek, on the other
+hand, was determined to eliminate his competitors before the start of the first round. He took
+out a small butterfly drone from his pocket and set it flying. Using his smartwatch, Vivek
+maneuverer the drone to fly directly over the students' eyes, causing them to drop their drinks
+onto the professor. Vishnu Vardhan, known for his observant nature, noticed the students'
+actions but did not respond immediately, silently adding their names to his list of potential
+troublemakers.</p>
+<p>Growing frustrated, Vivek decided to take his actions further and directly target Vishnu
+Vardhan. He directed the butterfly drone to fly over Naresh as he was about to pass by Vishnu
+Vardhan. Vivek pressed the up arrow on his watch, causing the drone to fly high into the air,
+and then adjusted its angle to make it swoop down towards Naresh. As the butterfly flew over
+Naresh's eyes, he shook and accidentally flipped his juice glass. However, Gowtham, who
+happened to be standing between Naresh and Vishnu Vardhan, shielded the professor from the
+flying juice, causing it to land on Gowtham instead. Vishnu Vardhan felt the impact and saw
+the juice stains on Gowtham's coat, leading him to take notice of Naresh's involvement.
+Just as Vishnu Vardhan was about to confront Gowtham, a mysterious man in a black suit, long
+hair, and a trimmed beard approached them. He placed his hand on Gowtham's shoulder,
+turning him around, and discreetly sprayed something on Gowtham's coat. When Gowtham
+finally turned to face Vishnu Vardhan, the professor was surprised to find no trace of juice
+stains on the coat. Intrigued, Vishnu Vardhan left the scene, leaving Gowtham and Naresh
+relieved. They looked at the man in gratitude and curiosity, asking how he managed to remove
+the stains and who he was. The man introduced himself as Ravi and explained that he used his
+"Vanish Spray," which contained ethyl alcohol and chelating agents to break down and remove
+the metal ions in the juice stain. Gowtham interjected, mentioning polyethylene glycol (PEG)
+and dodecyl sulphate (SDS) as surfactants in Ravi's product, confirming his knowledge. The
+two of them embraced, impressed with each other's skills.</p>
+<p>Their conversation was interrupted by Divya, who playfully sprayed a perfume bottle on
+Gowtham's coat, changing the colour from black to blue. This surprised everyone around them.
+Ravi, in a sarcastic tone, commented on Divya's show-off, and Divya responded with a playful
+expression. Amidst the banter, Naresh revealed that the reason he had flipped his glass was
+because of the butterfly drone. Gowtham immediately identified Vivek as the culprit behind
+the drone's actions. Ravi and Divya expressed their determination to handle the situation.
+Naresh assured them that they had already showcased their skills and now it was his turn to
+take action. He took out his flip phone and used its scanning capabilities to detect the butterfly
+drone's communication protocols. With a few taps on his phone, Naresh gained control over
+the drone and made it perform loops of rapid ascents and descents until it eventually exploded.
+Laughter filled the air as they celebrated their successful retaliation.After a satisfying dinner, as everyone started leaving the hall, Vivek and his friends Varun and Ritik approached Naresh, Gowtham, Divya, and Ravi, seeking retribution for the destruction of Vivek's drone. Tensions escalated, and a fight seemed imminent. However, just as things were about to escalate further, Vishnu Vardhan's voice echoed through the hall, commanding them to run as fast as they could if they wanted to avoid consequences. Without looking back,
+Vivek and his friends sprinted towards their rooms, fearing the professor's wrath.</p>
+<p>The voice resounded loudly, causing everyone to pause in their tracks. It posed a question,
+asking if it should reveal something individually to each of them. Suddenly, Gowtham burst
+into laughter, finding amusement in the situation. He complimented the device, acknowledging
+its impressiveness but pointed out that its timing was off. As he spoke, Shreya emerged from
+the darkness, her face concealed behind a metallic mask. With a sense of intrigue, she removed
+the mask and questioned Gowtham, asking how he knew about her hidden identity. In response,
+Gowtham proudly displayed his phone, which granted him access to all the security cameras
+in the university. He specifically highlighted footage of Vishnu Sir walking near Block A.</p>
+<p>At first, everyone was impressed by Shreya's masked appearance, but as they witnessed
+Gowtham's hacking skills and his control over the security cameras, their reactions shifted to
+awe. Smiles spread across their faces as they exchanged glances, realizing the incredible talents
+within their group. They proceeded to walk together, moving slowly and confidently towards
+their respective rooms.</p>
+<p>Little did they know that the challenges they would encounter in the coming days would not
+only test their scientific abilities but also their moral compass, their loyalty, and their ability to
+keep secrets. The path they had chosen was fraught with danger and uncertainty, and the
+choices they would make would have far-reaching consequences.</p>
+<p>But for now, they allowed themselves a moment of anticipation, excitement, and camaraderie,
+cherishing the memories of the day they first met—the day that would forever bind their fates
+together and set them on a collision course with destiny.</p>
+<p>The next chapter of their journey awaited, and with it, the unfolding of a mystery that would
+grip them all, pushing them to their limits and forcing them to confront the darkness that lurked
+within their own hearts</p>
 <hr>
 7:["$","article",null,{"className":"prose prose-lg mx-auto py-16 px-4 max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-extrabold mb-4","children":"MAD"}],["$","p",null,{"className":"text-sm text-gray-500 mb-8","children":"5/19/2025"}],["$","section",null,{"className":"prose prose-lg lg:prose-xl space-y-6 text-justify mx-auto","style":{"textAlign":"justify"},"dangerouslySetInnerHTML":{"__html":"$15"}}],["$","div",null,{"className":"mt-12 flex justify-between text-indigo-600"}],["$","$L16",null,{"storyId":"MAD"}]]}]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
