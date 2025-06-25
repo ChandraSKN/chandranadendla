@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[9243,["955","static/chunks/955-d07f8abe672ac9be.js","334","static/chunks/334-c2648384253b43c8.js","436","static/chunks/436-4d021eb8633c55f0.js","177","static/chunks/app/layout-c6b46a66b30b4824.js"],""]
-3:I[2162,["955","static/chunks/955-d07f8abe672ac9be.js","334","static/chunks/334-c2648384253b43c8.js","436","static/chunks/436-4d021eb8633c55f0.js","177","static/chunks/app/layout-c6b46a66b30b4824.js"],"default"]
+2:I[9243,["955","static/chunks/955-5bb8bede1105d7fa.js","334","static/chunks/334-c2648384253b43c8.js","436","static/chunks/436-4d021eb8633c55f0.js","177","static/chunks/app/layout-c6b46a66b30b4824.js"],""]
+3:I[2162,["955","static/chunks/955-5bb8bede1105d7fa.js","334","static/chunks/334-c2648384253b43c8.js","436","static/chunks/436-4d021eb8633c55f0.js","177","static/chunks/app/layout-c6b46a66b30b4824.js"],"default"]
 4:I[7555,[],""]
 5:I[1295,[],""]
-6:I[4804,["955","static/chunks/955-d07f8abe672ac9be.js","334","static/chunks/334-c2648384253b43c8.js","436","static/chunks/436-4d021eb8633c55f0.js","177","static/chunks/app/layout-c6b46a66b30b4824.js"],"default"]
+6:I[4804,["955","static/chunks/955-5bb8bede1105d7fa.js","334","static/chunks/334-c2648384253b43c8.js","436","static/chunks/436-4d021eb8633c55f0.js","177","static/chunks/app/layout-c6b46a66b30b4824.js"],"default"]
 8:I[9665,[],"MetadataBoundary"]
 a:I[9665,[],"OutletBoundary"]
 d:I[4911,[],"AsyncMetadataOutlet"]
@@ -11,13 +11,14 @@ f:I[9665,[],"ViewportBoundary"]
 11:I[6614,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/43a495c1ff41782c.css","style"]
-0:{"P":null,"b":"-LRHKnj-Cct2vP5ifHdy8","p":"","c":["","blogs","GenerativeAI"],"i":false,"f":[[["",{"children":["blogs",{"children":[["postId","GenerativeAI","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/43a495c1ff41782c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["blogs",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postId","GenerativeAI","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","p2LgJjgYq02dsi2VPeWow",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+:HL["/_next/static/css/50343c7ccdbad94f.css","style"]
+0:{"P":null,"b":"FXsBi6dJGofzNcNhyNe2n","p":"","c":["","blogs","GenerativeAI"],"i":false,"f":[[["",{"children":["blogs",{"children":[["postId","GenerativeAI","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50343c7ccdbad94f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["blogs",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postId","GenerativeAI","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","VWkoUiJZFxz2Hd3jR-CBF",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
 12:"$Sreact.suspense"
 13:I[4911,[],"AsyncMetadata"]
 9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
 c:null
-15:T3f4b,<h3><strong>What is Generative AI?</strong></h3>
+15:T3f57,<p><img src="/generativeAI.png" alt="GenerativeAI"></p>
+<h3><strong>What is Generative AI?</strong></h3>
 <p>Generative AI refers to models that can create new content — from text to images, audio, and even entire videos — by learning patterns from massive datasets. Unlike traditional rule-based systems, these models don’t just retrieve data; they <strong>generate entirely new outputs</strong>, mimicking human creativity.</p>
 <p>What used to take a team of experts can now be prompted into existence with a single sentence.</p>
 <hr>
@@ -127,6 +128,7 @@ The result? AI that could <strong>create new images, music, even faces</strong> 
 <p>Open-source models (Mistral, LLaMA, Falcon) empower developers globally</p>
 </li>
 </ul>
+<p><img src="/history.png" alt="history"></p>
 <hr>
 <h3><strong>Why Is It Suddenly Everywhere?</strong></h3>
 <p>A few key reasons:</p>
@@ -145,7 +147,6 @@ The result? AI that could <strong>create new images, music, even faces</strong> 
 </li>
 </ul>
 <p>The result? A Cambrian explosion of content, tools, and ideas — many of them AI-generated.</p>
-<hr>
 <h3><strong>Who Is Using It?</strong></h3>
 <ul>
 <li>
@@ -168,7 +169,6 @@ The result? AI that could <strong>create new images, music, even faces</strong> 
 </li>
 </ul>
 <p>It’s not limited to tech-savvy folks anymore. From kindergarten teachers using AI to draft lesson plans to indie musicians collaborating with voice clones — <strong>Gen AI is mainstream</strong>.</p>
-<hr>
 <h3><strong>What Most People Are Missing About Gen AI</strong></h3>
 <p>Despite its popularity, there are <strong>five truths</strong> people often overlook:</p>
 <ol>
@@ -193,7 +193,6 @@ Many models are trained on copyrighted or proprietary data. This opens up grey a
 Training large models consumes immense computational power and energy — raising sustainability concerns rarely discussed in AI hype.</p>
 </li>
 </ol>
-<hr>
 <h3><strong>What Is Gen AI Used For? (Real Tools, Real Tasks)</strong></h3>
 <h4><strong>1. Image Generation</strong></h4>
 <ul>
@@ -214,7 +213,6 @@ Open-source, customizable image model for everything from photorealism to abstra
 Best known for generating images with <strong>realistic-looking text</strong> (posters, signs, branding).</p>
 </li>
 </ul>
-<hr>
 <h4><strong>2. Presentation (PPT) Generation</strong></h4>
 <ul>
 <li>
@@ -230,7 +228,6 @@ Create storytelling-style presentations with text, images, and web content.</p>
 Smart templates that adapt to your content automatically — professional and clean.</p>
 </li>
 </ul>
-<hr>
 <h4><strong>3. Code Generation</strong></h4>
 <ul>
 <li>
@@ -246,7 +243,6 @@ Built into an online IDE — great for learning, prototyping, and real-time feed
 AWS-native coding assistant with a focus on security and enterprise integration.</p>
 </li>
 </ul>
-<hr>
 <h4><strong>4. Song &#x26; Audio Generation</strong></h4>
 <ul>
 <li>
@@ -266,7 +262,6 @@ Neural net for generating music with vocals in various styles (research-level).<
 Real-time voice filters, character voices, and song effects — fun and viral.</p>
 </li>
 </ul>
-<hr>
 <h4><strong>5. Idea Generation &#x26; Brainstorming</strong></h4>
 <ul>
 <li>
@@ -286,7 +281,6 @@ Tailored for marketers and copywriters — blog posts, ads, and taglines.</p>
 Real-time AI search with citations — great for research and content drafting.</p>
 </li>
 </ul>
-<hr>
 <h4><strong>6. Video Generation</strong></h4>
 <ul>
 <li>
@@ -302,11 +296,9 @@ Popular for AI-powered video editing, green screen effects, and motion tracking.
 Text-to-video model that generates cinematic clips with astonishing detail.</p>
 </li>
 </ul>
-<hr>
 <h2>The Future of Generative AI: What’s Coming Next?</h2>
 <p>Generative AI is no longer a novelty — it’s a foundational technology. As it evolves, we’re entering a new phase where Gen AI isn't just a content creator but a <strong>collaborator, decision-maker, and creative partner</strong>.</p>
 <p>Here’s what the next 3–5 years are likely to bring:</p>
-<hr>
 <h3>1. <strong>Multi modal Models Become the Norm</strong></h3>
 <p>Gen AI is moving from “text-only” to models that <strong>see, speak, hear, and act</strong>.</p>
 <ul>
@@ -318,7 +310,6 @@ Text-to-video model that generates cinematic clips with astonishing detail.</p>
 <p><strong>Google Gemini</strong>, <strong>Meta’s LLaMA 3</strong>, and <strong>Anthropic’s Claude 3</strong> are also integrating multimodal capabilities.</p>
 </li>
 </ul>
-<hr>
 <h3>2. <strong>Autonomous AI Agents and “AI Co-workers”</strong></h3>
 <p>Instead of prompting every task, users will rely on <strong>AI agents</strong> that take initiative and complete complex workflows.</p>
 <ul>
@@ -341,7 +332,6 @@ Text-to-video model that generates cinematic clips with astonishing detail.</p>
 </li>
 </ul>
 <p>📎 Source: <a href="https://www.cognition-labs.com/">Cognition AI Devin</a> | <a href="https://github.com/Torantulino/Auto-GPT">AutoGPT GitHub</a></p>
-<hr>
 <h3>3.  <strong>AI in Scientific Discovery &#x26; Healthcare</strong></h3>
 <p>Gen AI will play a growing role in <strong>drug discovery, clinical documentation, and diagnostics</strong>.</p>
 <ul>
@@ -353,7 +343,6 @@ Text-to-video model that generates cinematic clips with astonishing detail.</p>
 </li>
 </ul>
 <p>📎 Source: <a href="https://www.nature.com/articles/d41586-021-02025-4">Nature: AlphaFold success</a></p>
-<hr>
 <h3>4.  <strong>Text-to-Video Will Reshape Creative Industries</strong></h3>
 <p>Tools like <strong>Sora (OpenAI)</strong> and <strong>Runway ML Gen-3</strong> will allow you to generate cinematic videos from text — no camera needed.</p>
 <ul>
@@ -365,7 +354,6 @@ Text-to-video model that generates cinematic clips with astonishing detail.</p>
 </li>
 </ul>
 <p>📎 Source: <a href="https://openai.com/sora">OpenAI Sora</a> | <a href="https://runwayml.com/research/introducing-gen-3-alpha">Runway ML Gen-3</a></p>
-<hr>
 <h3>5.  <strong>AI Governance, Regulation, and Ethics Will Intensify</strong></h3>
 <ul>
 <li>
@@ -376,7 +364,6 @@ Text-to-video model that generates cinematic clips with astonishing detail.</p>
 </li>
 </ul>
 <p>📎 Source: <a href="https://artificialintelligenceact.eu/">EU AI Act Summary</a></p>
-<hr>
 <h3>6.  <strong>AI Will Shift Job Roles — But Not Always Replace Them</strong></h3>
 <ul>
 <li>
@@ -387,7 +374,6 @@ Text-to-video model that generates cinematic clips with astonishing detail.</p>
 </li>
 </ul>
 <p>📎 Source: McKinsey Future of Work Report</p>
-<hr>
 <h3>7.  <strong>The Rise of Emotionally Aware and “Self-Reflective” AI</strong></h3>
 <ul>
 <li>
@@ -398,13 +384,11 @@ Text-to-video model that generates cinematic clips with astonishing detail.</p>
 </li>
 </ul>
 <p>📎 Source: <a href="https://www.anthropic.com/news/claude-3-family">Anthropic Claude 3</a></p>
-<hr>
 <h3><strong>Final Thoughts: The Real Work Starts After Generation</strong></h3>
 <p>Generative AI is a spark, not a solution. It can accelerate creativity, but <strong>human judgment, editing, and purpose remain irreplaceable</strong>.</p>
 <p>If you’re using Gen AI without asking <em>why</em>, <em>how</em>, and <em>what’s missing</em>, you’re just automating the obvious.<br>
 But if you’re using it to challenge how we think, create, and collaborate — then you’re tapping into something revolutionary.</p>
 <p>Generative AI won’t replace your job — <strong>but someone who knows how to prompt it well just might.</strong></p>
-<hr>
 7:["$","article",null,{"className":"prose prose-lg mx-auto py-16 px-4 max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-extrabold mb-4","children":"What You’re Missing About Generative AI — Hidden Truths & Real Use Cases"}],["$","p",null,{"className":"text-sm text-gray-500 mb-8","children":"5/19/2025"}],["$","section",null,{"className":"prose prose-lg lg:prose-xl space-y-6 text-justify mx-auto","style":{"textAlign":"justify"},"dangerouslySetInnerHTML":{"__html":"$15"}}],["$","div",null,{"className":"mt-12 flex flex-wrap gap-2","children":[["$","span","AI",{"className":"inline-block bg-gray-200 px-2 py-1 text-sm rounded","children":["#","AI"]}],["$","span","GenerativeAI",{"className":"inline-block bg-gray-200 px-2 py-1 text-sm rounded","children":["#","GenerativeAI"]}]]}]]}]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 b:null
