@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[69243,["955","static/chunks/955-f92e1f3fa070beb6.js","334","static/chunks/334-561b03e54012db7c.js","177","static/chunks/app/layout-b128bb4ae9a73d4c.js"],""]
-3:I[62162,["955","static/chunks/955-f92e1f3fa070beb6.js","334","static/chunks/334-561b03e54012db7c.js","177","static/chunks/app/layout-b128bb4ae9a73d4c.js"],"default"]
+2:I[69243,["955","static/chunks/955-f92e1f3fa070beb6.js","342","static/chunks/342-47416df278127bef.js","212","static/chunks/212-3da0ee3c46cb98b1.js","177","static/chunks/app/layout-643a0c3c28f48315.js"],""]
+3:I[62162,["955","static/chunks/955-f92e1f3fa070beb6.js","342","static/chunks/342-47416df278127bef.js","212","static/chunks/212-3da0ee3c46cb98b1.js","177","static/chunks/app/layout-643a0c3c28f48315.js"],"default"]
 4:I[87555,[],""]
 5:I[31295,[],""]
-6:I[22382,["955","static/chunks/955-f92e1f3fa070beb6.js","334","static/chunks/334-561b03e54012db7c.js","177","static/chunks/app/layout-b128bb4ae9a73d4c.js"],"default"]
+6:I[79387,["955","static/chunks/955-f92e1f3fa070beb6.js","342","static/chunks/342-47416df278127bef.js","212","static/chunks/212-3da0ee3c46cb98b1.js","177","static/chunks/app/layout-643a0c3c28f48315.js"],"default"]
 8:I[59665,[],"MetadataBoundary"]
 a:I[59665,[],"OutletBoundary"]
 d:I[74911,[],"AsyncMetadataOutlet"]
@@ -11,14 +11,14 @@ f:I[59665,[],"ViewportBoundary"]
 11:I[26614,[],""]
 :HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/c7f4545bafc05298.css","style"]
-0:{"P":null,"b":"XubTBIT4qA4E_bQ9N9O5P","p":"","c":["","stories","MAD"],"i":false,"f":[[["",{"children":["stories",{"children":[["storyId","MAD","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c7f4545bafc05298.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["stories",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["storyId","MAD","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","eg1Lay3Y9zR_B_xJuJ1jc",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+:HL["/_next/static/css/1df53c19a262bfd2.css","style"]
+0:{"P":null,"b":"0t7Ql4jK8tCjp5XgyljJQ","p":"","c":["","stories","MAD"],"i":false,"f":[[["",{"children":["stories",{"children":[["storyId","MAD","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1df53c19a262bfd2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["stories",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["storyId","MAD","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","nIB4HPd5Om2gYv7iqMLCZ",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
 12:"$Sreact.suspense"
 13:I[74911,[],"AsyncMetadata"]
 9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
 c:null
 16:I[44122,["982","static/chunks/982-481bd6ff73f1da15.js","465","static/chunks/app/stories/%5BstoryId%5D/page-84f908880ef8d967.js"],"default"]
-15:T7266,<h3><strong>Chapter 1: My First Murder</strong></h3>
+15:Td533,<h3><strong>Chapter 1: My First Murder</strong></h3>
 <p>In the busy city of Mumbai, life never stopped. The sun was going down, and the sky turned orange and purple. All around, people hurried home, street vendors packed up, and cars honked in traffic. In the middle of this rush stood <strong>Sarasvati Siksha University (SSU)</strong>, a place where students studied hard and hoped for a bright future.</p>
 <p>Gowtham, a young man with a restless spirit, found himself in the dimly lit depths of the
 university’s car park. As he sat in his car, the world outside faded into obscurity, shielding him
@@ -165,7 +165,7 @@ ready to face the consequences of their actions and delve deeper into the intric
 first murder they had ever encountered. The game had just begun, and the stakes were higher
 than they could have ever imagined</p>
 <hr>
-<p><strong>Chapter 2: The Day We Met</strong></p>
+<h3><strong>Chapter 2: The Day We Met</strong></h3>
 <p>Perfect crimes may seem flawless as long as they remain secret. However, even the most
 meticulously planned schemes could unravel if those involved fail to remain silent in times of
 adversity. Now, the question arises: can these five individuals truly keep their secret? Are they
@@ -358,6 +358,289 @@ together and set them on a collision course with destiny.</p>
 grip them all, pushing them to their limits and forcing them to confront the darkness that lurked
 within their own hearts</p>
 <hr>
+<h3><strong>Chapter 3: Talent Over Luck</strong></h3>
+<p>The sun began to rise, casting its golden rays upon the open hall as the participants gathered
+once again, filled with anticipation for the start of the first round. They stood in organized lines,
+their hearts pounding with excitement, ready to embark on the next phase of their journey.
+Rama Prabha, radiating confidence and energy, took the centre stage once more. Her voice
+echoed through the hall, commanding attention, and stirring a renewed sense of purpose within
+each participant. She greeted them with a warm smile, exuding an air of determination and
+passion.</p>
+<p>"Good morning, everyone," Rama Prabha's voice rang out, carrying a mix of encouragement
+and challenge. "I hope you all enjoyed yesterday's dinner, for today marks the beginning of the
+true test of your scientific prowess. The first round, 'The Enigma Experiment,' awaits you."
+A buzz of excitement filled the air as the participants exchanged eager glances, eager to
+showcase their skills and innovative thinking.</p>
+<p>Rama Prabha continued, her voice brimming with enthusiasm, "In this round, you will form
+teams of five members each. For every two teams one unique problem will be given to solve—
+a challenge that will push the boundaries of your scientific abilities and creative thinking. Your
+task is not only to develop a real-time solution but also to strive for a better solution, one that
+has the potential to attract investors and leave a lasting impact."</p>
+<p>She emphasized the importance of teamwork and reminded them that the speed at which they
+formed their teams would determine the time they had to work on their solutions.
+"The formation of your teams’ rests solely on your shoulders," Rama Prabha stated firmly.
+"This is an opportunity for you to leverage the connections you made during yesterday's dinner
+and to understand your fellow participants. Remember, your success lies in your ability to come
+together and collaborate effectively."</p>
+<p>The participants listened attentively, realizing that their fate was in their own hands. They
+understood that it was not luck but their own talent and determination that would determine
+their path to success.</p>
+<p>Rama Prabha's voice took on a more serious tone as she continued, "I want to remind you all
+that this is not a typical science project. I do not expect half-hearted efforts or incomplete
+solutions. Your work will be evaluated not by your marks but by the interest it generates among
+potential investors."</p>
+<p>She paused, allowing her words to sink in, before concluding, "Your journey in the SSP Club
+is not just about showcasing your scientific abilities; it is about making a real-world impact.
+Embrace the challenge, unleash your creativity, and let your passion for science guide you."
+With those final words of encouragement, Rama Prabha stepped back, allowing the participants
+to take charge of their own destiny. The hall erupted with a buzz of activity as the participants
+formed huddles, engaging in animated discussions and careful deliberations. Gowtham, with his natural charisma, quickly emerged as a leader, drawing the attention and respect of his peers. Shreya, the centre of attention the previous evening, approached him with a smile, and the two of them exchanged a nod of agreement, forming the foundation of their team.</p>
+<p>Vivek, ever the opportunist, approached Gowtham, recognizing his leadership potential and
+the benefits of aligning himself with a strong team. Naresh, observing from a distance, joined
+them, realizing that his technical skills and attention to detail would complement the team's
+strengths.</p>
+<p>Meanwhile, Divya and Ravi, the siblings who had entered the hall together, sought out
+individuals whose talents and personalities would complement their own. Divya, with her sharp
+intellect and strategic thinking, approached Vivek, recognizing his technical prowess. Ravi,
+ever the observant one, Approached Madhu, a man who appeared to be twice his age, his
+physique exuding strength and resilience. Despite his imposing presence, there was a distinct
+air of serenity that surrounded him. Madhu's voice, in stark contrast to his physicality, resonated
+with a gentle and soothing tone, conveying a sense of wisdom and tranquillity. During the
+dinner, Madhu had displayed a remarkable ability to observe and absorb information,
+demonstrating an astute eye for detail and a thoughtful nature. Together, they formed a team
+that balanced intelligence, creativity, and meticulousness.</p>
+<p>As the participants finalized their teams, the atmosphere in the hall buzzed with a sense of
+purpose and determination. Friendships were forged, alliances were made, and a collective
+energy permeated the air. Each team knew that their success depended not only on their
+individual talents but also on their ability to work harmoniously as a unit.</p>
+<p>With their teams in place, the participants eagerly awaited the announcement of their assigned
+problems. Rama Prabha, sensing their anticipation, stepped forward once again, her voice filled
+with excitement.</p>
+<p>"Now that you have formed your teams, it is time to reveal the challenges that await you," she
+declared. "Remember, these problems have been meticulously designed to test your scientific
+abilities and innovation. They are not meant to be easy, but they are within your reach if you
+harness the full potential of your team."</p>
+<p>As Rama Prabha unveiled the problems, the hall filled with a mix of reactions—some teams
+exchanged confident smiles, while others furrowed their brows in thoughtful contemplation.
+The challenges were indeed daunting, but the participants knew that their talents, combined
+with their team's collective strength, would pave the way for success.</p>
+<p>With the problems assigned and the teams ready to embark on their journey, Rama Prabha
+concluded, "Now, go forth and unleash your scientific prowess. Remember, it is not luck but
+talent that will guide you on this path. Your dedication, hard work, and ability to collaborate
+will determine your destiny in the SSP Club."</p>
+<p>The participants, now unified in their teams and driven by a shared purpose, dispersed to begin
+their work. The hall echoed with the sound of animated discussions, brainstorming sessions,
+and the clatter of pens on paper as the teams delved into their assigned problems, determined
+to find innovative solutions that would leave a lasting impact.And so, the first round of the SSP Club commenced—a test of intellect, creativity, and teamwork. The participants had embraced the notion that success was not a matter of luck but a result of their own talents and hard work. They were ready to push the boundaries of scientific exploration, confident that their solutions would captivate potential investors and pave the way for a brighter future.</p>
+<p>The journey had just begun, and as they immersed themselves in their projects, they knew that
+the path ahead would be challenging. But they were fuelled by a burning passion for science,
+a deep-rooted belief in their own abilities, and the unwavering support of their teammates. And
+so, the stage was set for the participants of the SSP Club to embark on a journey that would
+test their talents and redefine their futures. The formation of their teams marked the
+convergence of diverse skills, intellects, and personalities, each team a unique blend of
+strengths and potential. Little did they know that their collaboration would unravel mysteries
+beyond the realm of science.</p>
+<p>As the teams delved into their assigned problems, an undercurrent of mystery began to weave
+its way through their work. Clues and enigmatic patterns emerged, hinting at hidden
+connections and secret agendas. The participants, driven by their insatiable curiosity, started
+piecing together fragments of a larger puzzle, unaware of the mysteries that awaited them.
+Meanwhile, an unknown force watched from the shadows, observing their every move. Unseen
+eyes scrutinized their progress, silently analysing the depth of their intellect and the strength of
+their determination. It seemed as though an intricate game was unfolding, where talent and
+intuition would be pitted against the unpredictable whims of fate.</p>
+<hr>
+<h3><strong>Chapter 4: What the Faludh!!!</strong></h3>
+<p>Gowtham, Shreya, Vivek, Divya, and Naresh formed a team known as SNB, named after
+Satyendra Nath Bose, the Indian mathematician and physicist who derived Planck's quantum
+radiation law. On the other hand, Ravi, Madhu, Priya, Geethika, and Mrudulla named their
+team MST, inspired by Meghnad Saha, the Indian astrophysicist who discovered the thermal
+ionization equation. Both teams were eager to work on their respective problems and give their
+best, hoping to overcome any challenges that lay ahead.</p>
+<p>After receiving their problem codes, SNB and MST entered them into the specially designed
+software provided by SSU. The software not only revealed the problem but also kept track of
+their progress, provided a free source of materials, and allocated virtual money amounting to
+200,000 INR. The teams could use this money to purchase materials online, with the added
+advantage of gaining an advantage if they managed to spend as little as possible.</p>
+<p>As the teams prepared to enter their codes, Priya from MST encountered a small hiccup. She
+entered the code "SSU54O7" into the tablet, but nothing appeared on the screen. She tried twice
+more, growing increasingly frustrated. Ravi, noticing her struggle, approached and examined
+the code. He corrected it, realizing that the correct code was "SSU5407" with a zero instead of
+the letter "o." When Priya entered the correct code, a message appeared on the screen, wishing
+the team good luck. However, the message itself left the team puzzled and confused.</p>
+<p>Meanwhile, in SNB's team, Vivek took the code from Gowtham's hand and entered it into the
+tablet. The code "SSU4399" yielded the same result as MST's code—an enigmatic "All the best
+team" message. Vivek, mirroring the confused expression on Priya's face, could not help but
+exclaim, "What the problem is?!" Divya, intrigued by the peculiar message, took the tablet and,
+after a quick glance, uttered the words, "What the Faludh!!" The team members overheard the
+name "Faludh" from the other team and realized that both SNB and MST had received the same
+problem, just as Rama Prabha had mentioned.</p>
+<p>SNB and MST gathered their belongings and sought out quiet places to discuss the problem.
+MST found refuge in an old shed, while SNB settled in a random classroom. Each team was
+determined to unravel the mystery of Faludh. Priya from MST voiced her suspicion, suggesting
+that there might be a glitch in the software, resulting in an incomplete problem description.
+However, Ravi, refusing to accept this explanation, believed that there was a hidden message
+embedded in the message they received. Madhu, sitting calmly and observing the items in the
+shed, caught Ravi's attention, but he too could not discern any hidden meaning. Mrudulla,
+intrigued by Priya's theory, decided to give it the benefit of the doubt. She believed that the
+best course of action was to confirm their suspicions by seeking assistance from the help desk.
+Geethika, understanding Mrudulla's perspective, offered to accompany her on this quest for
+answers. The two of them prepared to venture to the help desk, hoping to gain clarity on the
+mysterious problem they had encountered.</p>
+<p>Before Mrudulla and Geethika set off, Ravi, realizing the potential importance of the situation,
+instructed Priya and Geethika to utilize their hacking skills to search the dark web for any
+scientific projects or information related to "Faludh." He understood that the dark web held a
+treasure trove of hidden knowledge and believed that Priya and Geethika's expertise would be
+invaluable in uncovering any relevant information. With this task assigned, Priya and Geethika
+focused their attention on the digital realm, preparing to dive into the depths of the dark web.As Priya and Geethika embarked on their search for information, Mrudulla nodded and
+exchanged a knowing look with Geethika. It was clear that she trusted Geethika's abilities and
+believed that they would uncover valuable insights to shed light on the enigma surrounding
+"Faludh." With a sense of determination, Mrudulla directed her steps toward the help desk,
+ready to engage in a conversation that could potentially unravel the mystery that had captivated
+their team.</p>
+<p>Meanwhile, within the SNB team, the atmosphere was filled with lively discussions as they
+delved into the meaning behind the enigmatic term "Faludh." Vivek, driven by his eagerness
+and curiosity, passionately put forward his theory. He believed that "Faludh" could potentially
+be the name of a renowned scientist who had left behind an unfinished masterpiece, waiting
+for someone to carry on their work and bring it to completion. As Vivek shared his thoughts,
+his eyes gleamed with excitement, and he couldn't help but feel a surge of pride when Shreya
+immediately resonated with his perspective.</p>
+<p>Shreya, with her own keen sense of adventure, saw the allure in solving an unfinished
+invention. She recognized the unique opportunity presented to them, a chance to contribute to
+the scientific world by adding the final pieces to a puzzle left behind by an unknown genius.
+As she voiced her agreement with Vivek, her words carried a hint of determination and a touch
+of awe. The air crackled with a sense of possibility, as if the team had stumbled upon a hidden
+treasure waiting to be discovered.</p>
+<p>However, not all members of the SNB team were entirely convinced. Gowtham, known for his
+rational thinking, raised an eyebrow and injected a hint of scepticism into the discussion. He
+offered a wry smile as he challenged the team's interpretations, questioning whether "Faludh"
+could be as straightforward as an unfinished invention. Divya and Naresh, however, remained
+steadfast in their own theories, unwilling to let go of their alternative explanations.</p>
+<p>Divya, with her sharp intellect, suggested that "Faludh" might be an allusion to an old space
+vessel that carried out clandestine missions, its name shrouded in secrecy. She envisaged a
+thrilling adventure, unravelling the mysteries of the universe and uncovering hidden truths that
+lay within the vastness of space. Naresh, ever the enigmatic thinker, proposed an intriguing
+idea that "Faludh" could be a covert code, signalling a top-secret mission known only to a select
+few. His imagination soared as he pictured a world of espionage, where their team's scientific
+pursuits would intertwine with the realm of international intrigue.</p>
+<p>As Gowtham, Shreya, and Vivek exchanged amused glances, their sarcastic remarks filled the
+air. They playfully acknowledged the wide range of theories presented by their teammates,
+simultaneously expressing both amusement and admiration for their creativity. Deep down,
+they respected Divya and Naresh's perspectives, understanding that their unique insights could
+potentially hold the key to unlocking the true meaning behind "Faludh."</p>
+<p>Despite the sarcasm that laced their words, Gowtham, Shreya, and Vivek recognized the value
+in divergent thinking. They acknowledged that their teammates' interpretations, even if
+seemingly far-fetched, could lead them to unexpected breakthroughs. After all, it was precisely
+this diversity of thought that had brought them together as a team in the first place.</p>
+<p>With their differing theories in mind, the SNB team found themselves at a momentary impasse.
+Their tablet, the source of their problem, abruptly powered off, reminding them that they hadoverlooked an essential item in their welcome kit—the charger. Realizing the urgency of the
+situation, Gowtham seized the opportunity to take charge and swiftly made up his mind.
+"Alright, guys," Gowtham declared with a grin, "I'll head to the help desk and grab the charger
+for our tablet. In the meantime, let us keep pondering the 'Faludh' mystery and see where our
+collective imagination takes us."</p>
+<p>With renewed determination, the SNB team dispersed, each member enveloped in their
+thoughts, ready to explore new possibilities and venture further into the intriguing realm of
+"Faludh." They understood that sarcasm aside, their unique perspectives and unwavering belief
+in their theories might just hold the key to unravelling the secrets that lay hidden within the
+problem they had been assigned.</p>
+<p>By the time Gowtham reached the help desk, located in the ground floor of the SSU main
+building, which was just a block away from the classroom where the SNB team was waiting,
+he noticed Mrudulla waiting for a response. Their eyes met for a few seconds, and a subtle
+tension filled the air. It was clear that they were acquainted with each other, but they remained
+silent, maintaining a distance between them. Both of them waited patiently at their respective
+counters, Gowtham collecting the charger without any issues.</p>
+<p>As Mrudulla continued to wait, Gowtham couldn't help but wonder why he was lingering
+around even after getting the charger. His curiosity piqued when he overheard the response that
+Mrudulla received from the help desk. The staff confirmed that there was no glitch in the
+software and clarified that "Faludh" was indeed their assigned problem. The realization struck
+Gowtham that both teams had been given the same enigma to unravel. With a hint of
+disappointment, Mrudulla turned back, making her way towards the old shed to share this
+information with her team.</p>
+<p>As Gowtham turned to leave the help desk area, someone abruptly rushed past him, causing
+Mrudulla to lose her balance. Reacting quickly, Gowtham reached out and held her hand,
+steadying her. Their eyes met again, and in that brief moment, they felt a connection, a
+familiarity that hung between them. A tinge of awkwardness settled in the atmosphere as they
+stood there, caught in each other's gaze. Mrudulla broke the silence with a soft "thank you,
+Goonu," using Gowtham's nickname known only to a select few. Both of them felt the
+discomfort and the unspoken tension that lingered between them, prompting them to let go of
+each other's hand.</p>
+<p>Once Mrudulla regained her balance, they started walking side by side, feeling the weight of
+the unspoken words that seemed to fill the air around them. As they walked, a voice from the
+crowd yelled, "Switch on the location and check the address! It's really hard to find." The words
+sparked an idea within Gowtham and Mrudulla simultaneously. They both took out their
+phones and began searching for a place called "Faludh," hoping to uncover some clue or
+reference. However, their search yielded no specific results.</p>
+<p>Gowtham took the lead and shared his conviction with Mrudulla, stating, "I strongly believe
+that 'Faludh' is the name of a place. The question isn't about finding a solution; it's about finding
+the problem itself." Mrudulla agreed, realizing that the only way to truly understand the
+problem was to experience it firsthand. They both felt a sense of urgency and a belief that the
+answer lay nearby. Without hesitation, they sprinted towards the library, their footsteps echoing
+through the corridors. As they rushed past Rama Prabha and Vishnu Vardhan, the sight of theirdetermined faces brought a smile to Rama Prabha's lips. She murmured to Vishnu Vardhan, "I
+think they've cracked it."</p>
+<p>Reaching the library, Gowtham and Mrudulla requested old Mumbai maps from the librarian.
+The librarian directed them to the old history section on the fourth floor, an area filled with
+countless dusty bookshelves. The scent of aged paper and faded ink permeated the air, creating
+an atmosphere reminiscent of an old person's room. With unspoken agreement, they split up
+and scoured different history books, their fingers flipping through pages in a race against time.
+Suddenly, they stumbled upon a map of Bombay from 1893, and their eyes widened with
+excitement as they spotted a place called "Faludh Nagar." It was marked on the map, but they
+discovered that the name had been changed in later years.</p>
+<p>Overwhelmed with exhilaration, Gowtham and Mrudulla instinctively embraced each other in
+a moment of triumph. But as the realization of their actions sank in, they quickly broke apart,
+their faces flushing with a mixture of excitement and embarrassment. An awkward silence hung
+between them momentarily until Mrudulla gathered her thoughts and suggested, "I think we
+need to inform our team about this discovery."</p>
+<p>With a renewed sense of purpose, they understood that they had made significant progress in
+deciphering the problem at hand. However, they were still unaware of the exact nature of the
+challenge they were about to face. They sensed that their journey ahead would be filled with
+thrilling adventures, obstacles, and unexpected twists. But armed with their newfound
+knowledge and a deepening connection between them, Gowtham and Mrudulla knew that they
+were ready to take on whatever lay ahead.</p>
+<hr>
+<h3><strong>Chapter 5: No Body No Crime</strong></h3>
+<p>As the group exited the theatre hall, Naresh's eyes darted towards a figure in the distance, and
+he uttered in a low, suspicious tone, "Guys, we are not alone." Instantly, everyone turned their
+heads to where Naresh pointed his finger.</p>
+<p>Divya, unable to contain herself, blurted out, "Murderer!" Ravi quickly covered Divya's mouth
+and cautioned her, "Shh, don't shout." Shreya focused her gaze on the direction the person was
+moving and commented, "I think he's heading towards the pool." Divya, displaying her
+innocence, chimed in, "Pool water is not good for bathing, especially at night." Annoyed
+glances were exchanged among the group as they told Divya to be quiet. Divya mumbled under
+her breath, "No one cares about health." Ravi then intervened, asking Shreya, "How can you
+be so sure the person is male?" Shreya replied with a knowing smile, "According to homicide
+studies in the USA, most murders are committed by men. I'm just going by the facts. And I'm
+not being sexist, just stating the statistics." Gowtham interrupted, urging the group to focus,
+"Can't you guys be serious right now? Let's follow that person." Shreya playfully responded,
+"Him," and Ravi countered, "Her." Shreya then proposed a bet, offering her Range Rover to
+Ravi for the next six months if she was wrong, and Ravi would give her Rahul's private
+Instagram account and ask him to follow her if she was right. Divya perked up, exclaiming,
+"You mean Rahul Chand has another Instagram account?" Ravi confirmed Divya's suspicion,
+stating, "Yes." Shreya added, "We all saved Rahul during the scientific showdown, but
+strangely, Ravi received all the credit." Ravi proudly asserted, "Because I saved him," but
+quickly corrected himself, "I mean, I had the maximum contribution."</p>
+<p>Shreya and Gowtham nodded in agreement, and Gowtham urged the group to continue towards
+the pool. Everyone followed Gowtham's lead, stopping at the south gate of the pool.
+They peered into the vast expanse, witnessing a serene environment bathed in a soft blue glow.
+Suddenly, they saw someone approaching the pool, and a sound of something heavy being
+dragged reached their ears along with the gentle lapping of waves. The person, standing at the
+edge of the pool, startled everyone as they witnessed them toss a bag into the water, causing
+ripples and splashes. Water droplets sprayed onto the person, creating an eerie scene. The
+group's gaze shifted from the person to the pool, where they saw what appeared to be a
+campaign storage bag. The same thought crossed their minds simultaneously: Could it be the
+missing body? In that moment, Ravi's phone began to ring, playing Taylor Swift's famous song
+"No Body, No Crime." Ravi hurriedly silenced his phone before anyone could notice. However,
+Mrudulla, who was present by the pool, seemed to have heard the ringtone.</p>
+<p>The pool fell into silence, and Mrudulla swiftly fled through the north entrance. Gowtham's
+mind raced with questions and worries. He desperately wanted to open the bag and check its
+contents, but the sound of the watchmen's approaching footsteps prevented them from doing
+so. The group silently ran towards the west gate to exit the university. As they successfully
+made their way out, a sense of relief washed over them. However, each member of the group
+carried their own doubts and questions. Gowtham, unable to shake off his concerns, still felt
+the urge to go back and examine the bag. In a tone filled with worry and helplessness, he
+muttered to himself, "It can't be... It can't be." Shreya, curious about his statement, asked
+Gowtham, "What can't it be?" Gowtham hesitated for a moment and then responded,
+"Mrudulla..." Shreya looked at him skeptically. Before she could respond, Naresh interjected,
+suggesting that they should all return to their rooms. He believed that the events they hadwitnessed went far beyond what had occurred in Faludh. Ravi added, "If this is really bigger
+than Faludh, then we have no chance of escaping it."</p>
 7:["$","article",null,{"className":"prose prose-lg mx-auto py-16 px-4 max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-extrabold mb-4","children":"MAD"}],["$","p",null,{"className":"text-sm text-gray-500 mb-8","children":"5/19/2025"}],["$","section",null,{"className":"prose prose-lg lg:prose-xl space-y-6 text-justify mx-auto","style":{"textAlign":"justify"},"dangerouslySetInnerHTML":{"__html":"$15"}}],["$","div",null,{"className":"mt-12 flex justify-between text-indigo-600"}],["$","$L16",null,{"storyId":"MAD"}]]}]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 b:null
