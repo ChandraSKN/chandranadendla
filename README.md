@@ -13,7 +13,7 @@ From this directory, run `python3 -m http.server 3000` and visit `http://localho
 - `portfolio.css`: responsive layout, typography, and colors.
 - The existing images, résumé, writing pages, and Next.js assets are retained.
 
-Common Ground links to the supplied live project URL. Its quote artwork is an illustration, not an application screenshot. Spinodoid Structures uses the existing project image. Add verified roles, methods, results, and a project link when available; no project metrics have been invented.
+Common Ground links to the interactive negotiation demo at `projects/common-ground/`. Its portfolio artwork is an illustration, not an application screenshot. Spinodoid Structures links to a written project walkthrough at `projects/spinodoid/`, using the existing project image and the supplied MSc report.
 
 The employment details are carried over from the previous portfolio, including the current role's date. Confirm these and the résumé before publishing. Deploy the contents of this directory to the existing static host. No deployment is performed by editing these files.
 
@@ -54,3 +54,26 @@ The playground includes local two-player tic-tac-toe and an opt-in ball-bounce g
 ## Clean writing routes
 
 Stories and blogs use directory indexes: `/stories/`, `/blogs/`, `/stories/MAD/`, and `/blogs/theTurk/`, for example. These work with the preview command above and static hosting, including direct visits and refreshes. Edit the corresponding `index.html` files. Previous `.html` URLs redirect to the new routes, preserving query strings and fragments when JavaScript is enabled.
+
+## Spinodoid project
+
+`projects/spinodoid/index.html` is the written project page, with local styles in `projects/spinodoid/spinodoid.css`. Both portfolio pages link to this clean directory route. The content and specimen results are sourced from `2719689N_Nadendla_MSc_Project_final_Report_Back_UP.pdf`, presented as a first-person project walkthrough. The original LinkedIn post is linked; its contents could not be retrieved during authoring. Edit the page directly; no build or JavaScript is required.
+
+The Spinodoid page includes an automatically loaded Three.js viewer backed by `projects/spinodoid/spinodoid.glb` (~10 MB). The model is a representative Gaussian-random-field reconstruction, not an original experimental STL. It uses 1,000 waves, wavenumber 15π, a 75-point grid, [90 0 0] geometry, a nominal 30 mm cube and a 0.48 mm normal-offset shell. The original random seed is unavailable; the reconstruction uses seed 2719689. The source is `scripts/build-spinodoid.py` (requires numpy, scikit-image and trimesh). The viewer renders on interaction, supports touch and keyboard, and displays a helpful message if WebGL is unavailable. Method reference: https://www.gibboncode.org/html/HELP_spinodoid.html
+
+
+## Common Ground negotiation demo
+
+Preview: `http://127.0.0.1:3017/projects/common-ground/` when serving this directory with `python3 -m http.server 3017 --bind 127.0.0.1`. Both portfolio entry pages link to the clean route.
+
+The demo uses plain HTML, CSS and JavaScript, matching this portfolio. The existing Common Ground application's source is not present in this workspace, so this is a standalone working prototype, not an integration into its quotation backend.
+
+Functional: four clarification branches, explicit confirmation/rejection, three commercial options, recalculated margin and minimum warnings, cost editing, private concession reflection, editable response, customer-facing text export, quotation preview, session-only revision snapshots, scripted reactions, explicit question resolution, and restart. All scenario data and scripted outcomes are fictional. Pilot acceptance thresholds are illustrative proposals requiring agreement.
+
+State lives only in memory. The demo does not read or write localStorage, sessionStorage, databases, or real quotation APIs. Reload/restart clears the demo; it cannot overwrite real quotation revisions. The customer-document projection excludes internal cost estimates, minimum margin, private reflection and concession reasons. A user can deliberately type anything into the customer draft, so customer-facing text still needs their review.
+
+Further development needs the existing app source and integration for costing, scope, quotation persistence, revision history, authentication and collaboration. Scripted replies would need to be replaced with actual customer input for real use. Domain-expert review and outcome tracking are future work; no personality scoring or predictive analysis is implemented.
+
+Browser verification is in `scripts/test-common-ground.cjs`. With Playwright installed outside the static site, run `NODE_PATH=/path/to/node_modules node scripts/test-common-ground.cjs`. Set `COMMON_GROUND_BASE_URL` to another local preview URL if needed; default is `http://127.0.0.1:3017`. The test uses `/usr/bin/google-chrome`, overridable with `CHROME_PATH`. It checks branching, all initial margins, cost changes, customer-draft privacy, edits, revisions, question resolution, restart isolation and responsive widths.
+
+The Common Ground project landing page now matches the Spinodoid presentation: introduction, an automatically loaded interactive iframe, then a first-person project write-up. The full demo lives at `projects/common-ground/demo.html`; its existing controls and isolated session state are preserved. Landing-page styling is in `project.css`, separate from the demo styles.
