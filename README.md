@@ -35,13 +35,13 @@ On the first view of at least 35% of the avatar, it automatically waves for thre
 
 ## Creative storyboard
 
-`stories.html` and the five pages under `stories/` now use `storyboard.css` and `storyboard.js`. The collection has genre filtering and a random story link; readers have chapter anchors, reading progress, and focus mode. No build is required.
+`stories/index.html` and the five readers at `stories/<story>/index.html` now use `storyboard.css` and `storyboard.js`. The collection has genre filtering and a random story link; readers have chapter anchors, reading progress, and focus mode. No build is required.
 
 Original story section markup is preserved in `stories/story-content.json`. MAD and Game Changer retain their authored text. Maya was empty, while LOVE and Yamaduta contained Markdown placeholders; these pages now show an in-development message. The old exported comment widgets are not included in the new readers. Edit the reader HTML to publish story updates and keep the collection cards in sync.
 
 ## Field Notes / articles
 
-`blogs.html` and the two readers in `blogs/` use `journal.css` and `journal.js`. The collection includes the supplied LinkedIn article link. Readers provide night/day reading, larger type, focus mode, section navigation, and reading progress. Controls work with keyboard and touch; reduced-motion preferences disable smooth scrolling.
+`blogs/index.html` and the two readers at `blogs/<article>/index.html` use `journal.css` and `journal.js`. The collection includes the supplied LinkedIn article link. Readers provide night/day reading, larger type, focus mode, section navigation, and reading progress. Controls work with keyboard and touch; reduced-motion preferences disable smooth scrolling.
 
 Original article markup is archived in `blogs/article-content.json`. Existing article text and source links are preserved; this redesign is not a factual update of the essays. The previous exported comment widgets are not included. Edit the reader HTML for future content updates.
 
@@ -50,3 +50,7 @@ Original article markup is archived in `blogs/article-content.json`. Existing ar
 `learn.html` uses `learning.css` and `learning.js`. It replaces the former in-progress screen with three learning tracks linked to existing essays and the supplied LinkedIn article. Dedicated lessons are explicitly marked coming soon.
 
 The playground includes local two-player tic-tac-toe and an opt-in ball-bounce game with keyboard/pointer controls, restart, and pause/resume. Ball bounce pauses when hidden or offscreen. No account, backend, or build step is required.
+
+## Clean writing routes
+
+Stories and blogs use directory indexes: `/stories/`, `/blogs/`, `/stories/MAD/`, and `/blogs/theTurk/`, for example. These work with the preview command above and static hosting, including direct visits and refreshes. Edit the corresponding `index.html` files. Previous `.html` URLs redirect to the new routes, preserving query strings and fragments when JavaScript is enabled.
