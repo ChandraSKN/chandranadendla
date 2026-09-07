@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[69243,["955","static/chunks/955-f92e1f3fa070beb6.js","342","static/chunks/342-47416df278127bef.js","212","static/chunks/212-3da0ee3c46cb98b1.js","177","static/chunks/app/layout-c438b9db72497007.js"],""]
+3:I[62162,["955","static/chunks/955-f92e1f3fa070beb6.js","342","static/chunks/342-47416df278127bef.js","212","static/chunks/212-3da0ee3c46cb98b1.js","177","static/chunks/app/layout-c438b9db72497007.js"],"default"]
+4:I[87555,[],""]
+5:I[31295,[],""]
+6:I[79387,["955","static/chunks/955-f92e1f3fa070beb6.js","342","static/chunks/342-47416df278127bef.js","212","static/chunks/212-3da0ee3c46cb98b1.js","177","static/chunks/app/layout-c438b9db72497007.js"],"default"]
+8:I[59665,[],"MetadataBoundary"]
+a:I[59665,[],"OutletBoundary"]
+d:I[74911,[],"AsyncMetadataOutlet"]
+f:I[59665,[],"ViewportBoundary"]
+11:I[26614,[],""]
+:HL["/_next/static/media/4cf2300e9c8272f7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/30b9e8a12171b31a.css","style"]
+0:{"P":null,"b":"xjay7Datga3aF-kwJYWf5","p":"","c":["","stories","GameChanger"],"i":false,"f":[[["",{"children":["stories",{"children":[["storyId","GameChanger","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/30b9e8a12171b31a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LELGCQV6R2","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4-setup","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-LELGCQV6R2', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":["stories",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["storyId","GameChanger","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","pi0_HlGKFDT4wJVX7-ZJm",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+12:"$Sreact.suspense"
+13:I[74911,[],"AsyncMetadata"]
+9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
+c:null
+16:I[44122,["982","static/chunks/982-481bd6ff73f1da15.js","465","static/chunks/app/stories/%5BstoryId%5D/page-84f908880ef8d967.js"],"default"]
+15:T5e6,<h2>🎬 Movie: <em>Game Changer</em></h2>
+<p><strong>Director:</strong> Shankar<br>
+<strong>Actors:</strong> Ram Charan, Kiara Advani</p>
+<hr>
+<h3>Hello Reader,</h3>
+<p>You might have read many reviews about movies, but this one is different. I’m writing a different kind of story — how the same movie <em>could have worked</em> without changing its core idea.</p>
+<p>The story starts with a dream of actress <strong>Anjali (insert character name)</strong>. In the dream, someone is killing someone; she’s searching for someone — a mysterious murderer. Suddenly, she gets shocked and wakes up from the dream, drenched in sweat. Outside, it’s raining heavily. As the rain transitions, we shift the scene from Anjali’s house to the Chief Minister’s residence, where he suffers a heart stroke.</p>
+<p>We keep the same <strong>flyover collapse</strong> sequence and show him being taken to the hospital. Here, we introduce his sons — <strong>SJ Suryah</strong> and another character (insert name). SJ Suryah’s role is slightly altered; he’s shown as a man with dual nature — caring for his father, making all the necessary arrangements, but while sitting beside him, he whispers coldly:</p>
+<blockquote>
+<p>“What’s the point of you living now? Please die… I’ll be the next CM.”</p>
+</blockquote>
+<p>Later, when he’s sitting idly, he sees a newspaper headline about an IAS officer who has been operated on — that’s <strong>Ram Charan’s character (insert name)</strong>.</p>
+7:["$","article",null,{"className":"prose prose-lg mx-auto py-16 px-4 max-w-3xl","children":[["$","h1",null,{"className":"text-4xl font-extrabold mb-4","children":"Game Changer Reboot"}],["$","p",null,{"className":"text-sm text-gray-500 mb-8","children":"10/17/2025"}],["$","section",null,{"className":"prose prose-lg lg:prose-xl space-y-6 text-justify mx-auto","style":{"textAlign":"justify"},"dangerouslySetInnerHTML":{"__html":"$15"}}],["$","div",null,{"className":"mt-12 flex justify-between text-indigo-600"}],["$","$L16",null,{"storyId":"GameChanger"}]]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+14:{"metadata":[["$","title","0",{"children":"CSKN"}],["$","meta","1",{"name":"description","content":"CSKN Website"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}
