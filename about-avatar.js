@@ -4,6 +4,9 @@ if (holder) {
   const observer = new IntersectionObserver(async entries => {
     if (!entries[0].isIntersecting || started) return;
     started = true; observer.disconnect();
+    const loadingLabel = holder.querySelector('.avatar-load-label');
+    loadingLabel.textContent = 'Loading avatar…';
+    holder.setAttribute('aria-busy', 'true');
     let renderer;
     try {
       const [T, { GLTFLoader }] = await Promise.all([
@@ -98,6 +101,8 @@ if (holder) {
         }
         pose(dt);
         renderer.render(scene, camera);
+        holder.classList.add('avatar-ready');
+        holder.setAttribute('aria-busy', 'false');
         settling = Math.max(0, settling - dt);
         if (!reduced.matches && (automaticLoop || settling > 0)) frame = requestAnimationFrame(tick);
       }
@@ -130,9 +135,11 @@ if (holder) {
       renderer.domElement.addEventListener('webglcontextlost', event => {
         event.preventDefault(); lost = true; cancelAnimationFrame(frame); frame = 0;
         holder.classList.remove('avatar-ready');
+        loadingLabel.textContent = 'Restoring avatar…';
+        holder.setAttribute('aria-busy', 'true');
       });
       renderer.domElement.addEventListener('webglcontextrestored', () => {
-        lost = false; resize(); holder.classList.add('avatar-ready');
+        lost = false; resize();
       });
       new ResizeObserver(resize).observe(host);
       new IntersectionObserver(entries => {
@@ -153,11 +160,13 @@ if (holder) {
         requestDraw();
       });
      
-      resize(); holder.classList.add('avatar-ready');
+      resize();
       holder.dataset.action = action;
     } catch {
       renderer?.dispose(); renderer?.domElement.remove();
       holder.classList.remove('avatar-ready');
+      loadingLabel.textContent = 'Meet Chandra — read my story alongside.';
+      holder.setAttribute('aria-busy', 'false');
     }
   }, { rootMargin: '200px' });
   observer.observe(holder);

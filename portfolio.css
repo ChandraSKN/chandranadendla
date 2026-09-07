@@ -17,3 +17,6 @@
 
 /* Selected work links are pending. */
 .project-art:hover{transform:none}.project-link-note{font-size:12px;font-weight:600;color:#61784e;margin:0}
+
+/* Neutral loading state; never show the retired avatar illustration. */
+.avatar-fallback{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;color:#637953}.avatar-placeholder-mark{font-size:48px;color:#91a57c}.avatar-load-label{font-size:12px;text-align:center;padding:0 24px}.avatar-canvas{visibility:hidden}.avatar-ready .avatar-canvas{visibility:visible}.avatar-ready .avatar-fallback{visibility:hidden}
