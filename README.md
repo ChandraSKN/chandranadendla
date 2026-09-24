@@ -10,12 +10,18 @@ From this directory, run `python3 -m http.server 3000` and visit `http://localho
 
 - `index.html`: main portfolio content.
 - `professional.html`: matching page for the existing professional route. Keep it in sync with `index.html`.
-- `portfolio.css`: responsive layout, typography, and colors.
+- `portfolio.css`: homepage component layout; `site.css` supplies the shared visual system.
 - The existing images, résumé, writing pages, and Next.js assets are retained.
 
-Common Ground links to the interactive negotiation demo at `projects/common-ground/`. Its portfolio artwork is an illustration, not an application screenshot. Spinodoid Structures links to a written project walkthrough at `projects/spinodoid/`, using the existing project image and the supplied MSc report.
+Common Ground links to the interactive negotiation demo at `projects/common-ground/`. Its portfolio preview (`assets/common-ground-preview.png`) is a browser capture of the local fictional demo. Spinodoid Structures links to a written project walkthrough at `projects/spinodoid/`, using the existing project image and the supplied MSc report.
 
 The employment details are carried over from the previous portfolio, including the current role's date. Confirm these and the résumé before publishing. Deploy the contents of this directory to the existing static host. No deployment is performed by editing these files.
+
+## Shared exhibition design
+
+`site.css` loads after each route’s styles and supplies the off-white, ink, and cobalt palette, local proportional Geist font, responsive layout refinements, and shared navigation. `site.js` enhances only the mobile menu; navigation stays visible without JavaScript. Edit `DESIGN.md` and `.impeccable/design.json` alongside changes to the shared system.
+
+The shared presentation covers both portfolio entry pages, the story collection and five readers, the article collection and two readers, learning, and both project landing pages (14 routes). Existing reader controls, games, and 3D interactions retain their own scripts. The embedded Common Ground demo keeps its independent styling and state. These are static files with no build step; no deployment is implied.
 
 ## Product Thinking orbit
 
@@ -77,3 +83,52 @@ Further development needs the existing app source and integration for costing, s
 Browser verification is in `scripts/test-common-ground.cjs`. With Playwright installed outside the static site, run `NODE_PATH=/path/to/node_modules node scripts/test-common-ground.cjs`. Set `COMMON_GROUND_BASE_URL` to another local preview URL if needed; default is `http://127.0.0.1:3017`. The test uses `/usr/bin/google-chrome`, overridable with `CHROME_PATH`. It checks branching, all initial margins, cost changes, customer-draft privacy, edits, revisions, question resolution, restart isolation and responsive widths.
 
 The Common Ground project landing page now matches the Spinodoid presentation: introduction, an automatically loaded interactive iframe, then a first-person project write-up. The full demo lives at `projects/common-ground/demo.html`; its existing controls and isolated session state are preserved. Landing-page styling is in `project.css`, separate from the demo styles.
+
+## Unemployment or Income Stagnation? — interactive article
+
+The native reader is at `/blogs/unemployment-or-income-stagnation/`, linked from
+`blogs/index.html`. It retains the handoff's complete initial-HTML prose, all six
+citations and source notes, four interactive sections, fictional scenarios and
+AI attribution. The page uses the existing navigation, footer, shared font and
+palette, plus night reading, larger type, focus mode and reading progress.
+
+The five route files are `index.html`, `style.css`, `model.js`, `app.js` and
+`reader.js`. Article CSS is scoped to `.worklife`. The supplied `model.js` is
+unchanged; `app.js` uses theme-aware chart colors and hides stale calculator
+results when inputs change. Custom form validation uses the model's exact bounds.
+Inputs remain in page memory; no API, analytics, storage or account was added.
+The original handoff directory is retained unchanged as the editorial source.
+
+Preview with the existing `python3 -m http.server 3021 --bind 127.0.0.1` workflow,
+then open `http://127.0.0.1:3021/blogs/unemployment-or-income-stagnation/`.
+No build step or dependency installation is required for the site.
+
+Run `NODE_PATH=/path/to/test/node_modules node scripts/test-worklife.cjs` with
+Playwright and axe-core available (the script also resolves locally installed
+axe-core). `PORTFOLIO_BASE_URL` and `CHROME_PATH` override the preview URL and
+Chrome executable. The test covers every acceptance value, calculator edge
+cases, all stories/quarters/replays, keyboard controls, responsive widths,
+light/dark accessibility, navigation and exact prose/citation parity with the
+handoff when JavaScript is disabled. Existing checks remain
+`scripts/test-portfolio.cjs` and `scripts/test-common-ground.cjs`.
+
+Publishing follows the existing static `gh-pages` branch workflow to
+`origin` (`ChandraSKN/chandranadendla`), with the domain in `CNAME`.
+On 24 September 2026, the remote branch matched local HEAD, but a dry-run push
+failed because HTTPS GitHub credentials were unavailable. Nothing was pushed.
+After authenticating Git, review and commit the article, collection entry and
+its required shared design files, then push `gh-pages` and verify the deployed
+route directly. The working tree already contained an unpublished shared
+redesign (`site.css`, `site.js`, collection/navigation changes); preserve and
+review that work rather than staging all unrelated files. The article's displayed
+and metadata date is 24 September 2026; if first publication happens later,
+update that publication date and the collection date while retaining the
+research/source-check date of 24 September 2026.
+
+Verification on 24 September 2026: existing 14-route checks and Common Ground
+checks passed; article checks passed at 1440, 768, 390 and 320px with no overflow,
+page errors or failed local assets. Axe WCAG 2 A/AA and 2.1 AA checks passed in
+light and dark mode. Desktop and mobile screenshots were visually reviewed.
+All six citation targets match the source. External HEAD checks returned 200
+for both ILO targets; PIB returned 401 and IMF/OECD returned 403, preventing
+automated availability verification of those four targets.

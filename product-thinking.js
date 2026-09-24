@@ -41,15 +41,15 @@ if (panel) {
     const scene = new T.Scene();
     const camera = new T.PerspectiveCamera(38, 1, 0.1, 30);
     camera.position.set(0, 0, 8);
-    scene.add(new T.HemisphereLight(0xffffef, 0x53664b, 2.6));
+    scene.add(new T.HemisphereLight(0xf8faff, 0x67749b, 2.6));
     const light = new T.DirectionalLight(0xffffff, 3.5);
     light.position.set(-3, 5, 5); scene.add(light);
     const group = new T.Group(); scene.add(group);
     const geometry = new T.SphereGeometry(1, 40, 28);
-    const core = new T.Mesh(geometry, new T.MeshStandardMaterial({ color: 0x4d6b3c, roughness: 0.35, metalness: 0.12 }));
+    const core = new T.Mesh(geometry, new T.MeshStandardMaterial({ color: 0x2946df, roughness: 0.35, metalness: 0.12 }));
     core.scale.setScalar(0.68); group.add(core);
     const keys = Object.keys(descriptions);
-    const colors = [0xaec88a, 0xc3b78f, 0x88b19f];
+    const colors = [0x94aaff, 0xc2c9e0, 0x697ec2];
     const labels = keys.map(key => {
       const label = document.createElement('span');
       label.className = 'thinking-node-label';
@@ -67,7 +67,7 @@ if (panel) {
         const a = j / 128 * Math.PI * 2;
         return new T.Vector3(Math.cos(a) * 1.95, Math.sin(a) * (0.95 + i * 0.22), Math.sin(a) * (i ? -0.5 : 0.5));
       });
-      const ring = new T.Line(new T.BufferGeometry().setFromPoints(points), new T.LineBasicMaterial({ color: 0x91a47c, transparent: true, opacity: 0.4 }));
+      const ring = new T.Line(new T.BufferGeometry().setFromPoints(points), new T.LineBasicMaterial({ color: 0x8294bf, transparent: true, opacity: 0.4 }));
       ring.rotation.z = i ? -0.35 : 0.35; group.add(ring);
     }
     let frame = 0, last = 0, angle = 0, visible = true, paused = false, lost = false;

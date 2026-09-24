@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local AI tooling / working files
+/.agents/
+/.codex/
+/.impeccable/
+skills-lock.json
+/Unemployment_Income_Stagnation_Portfolio_Handoff/
