@@ -13,6 +13,8 @@ From this directory, run `python3 -m http.server 3000` and visit `http://localho
 - `portfolio.css`: homepage component layout; `site.css` supplies the shared visual system.
 - The existing images, résumé, writing pages, and Next.js assets are retained.
 
+The Tech projects section (`#tech`) links Desktop Buddy to `projects/desktop-buddy/`, a written walkthrough that reuses the Spinodoid page styles plus `desktop-buddy.css`. Its images in `assets/desktop-buddy/` are frames rendered from the Blender model in the [Desktop Buddy repository](https://github.com/ChandraSKN/Desktop-buddy-).
+
 Common Ground links to the interactive negotiation demo at `projects/common-ground/`. Its portfolio preview (`assets/common-ground-preview.png`) is a browser capture of the local fictional demo. Spinodoid Structures links to a written project walkthrough at `projects/spinodoid/`, using the existing project image and the supplied MSc report.
 
 The employment details are carried over from the previous portfolio, including the current role's date. Confirm these and the résumé before publishing. Deploy the contents of this directory to the existing static host. No deployment is performed by editing these files.

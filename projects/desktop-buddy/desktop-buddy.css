@@ -1,0 +1,9 @@
+.buddy-figure{background:#dfe5f3}
+.buddy-figure img{height:330px}
+.buddy-poses{margin:32px 0;background:#46598a;border-radius:12px;overflow:hidden}
+.buddy-poses img{display:block;width:100%;height:auto}
+.buddy-poses figcaption{background:var(--surface,#e7ebf4);font-size:12px;line-height:1.6;padding:14px 18px;color:var(--secondary,#586174)}
+.buddy-list{padding-left:22px;margin-block:24px}
+.buddy-list li{font-size:16px;line-height:1.8;color:#4e554b;margin-bottom:16px;padding-left:6px}
+.buddy-list strong{color:var(--text,#1d2330);font-weight:600}
+.method-steps li{font-size:16px;line-height:1.8}

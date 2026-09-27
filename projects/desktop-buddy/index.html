@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Desktop Buddy — Chandra SK Nadendla</title>
+<meta name="description" content="Desktop Buddy: an animated AI assistant for the Linux desktop with meeting reminders, a “Hey Buddy” voice in English and Telugu, meeting minutes and long-term memory, built in Python with the Claude API.">
+<meta name="theme-color" content="#f4f5f8">
+<link rel="icon" href="../../favicon.ico">
+<link rel="stylesheet" href="../../portfolio.css">
+<link rel="stylesheet" href="../spinodoid/spinodoid.css">
+<link rel="stylesheet" href="desktop-buddy.css">
+<link rel="stylesheet" href="../../site.css"><script src="../../site.js" defer></script></head>
+<body class="surface-work">
+<a class="skip" href="#main">Skip to project</a>
+<header class="site-header"><a class="site-brand" href="../../index.html" aria-label="Chandra SK Nadendla, home"><img src="../../Logo.png" width="42" height="42" alt=""><span>Chandra<span>SK Nadendla</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>Menu</button><nav id="site-navigation" aria-label="Main navigation"><a href="../../index.html#work" aria-current="page">Work</a><a href="../../blogs/">Writing</a><a href="../../stories/">Stories</a><a href="../../learn.html">Lab</a><a href="../../index.html#about">About</a><a class="site-contact" href="../../index.html#contact">Let’s talk <span aria-hidden="true">↗</span></a></nav></header>
+<main id="main">
+<section class="project-hero wrap" aria-labelledby="project-title">
+<div><a class="back" href="../../#tech">← Back to tech projects</a><p class="eyebrow"><span class="dot"></span> SOFTWARE / AI ASSISTANT / 2026</p><h1 id="project-title">Desktop<br><em>Buddy.</em></h1><p class="project-deck">A small animated colleague who walks along the edge of my screen, keeps an eye on my calendar, and answers when I say “Hey Buddy”.</p><div class="actions"><a class="button primary" href="#overview">Read the project <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/ChandraSKN/Desktop-buddy-" target="_blank" rel="noopener noreferrer">Source code on GitHub ↗<span class="sr-only"> (opens in a new tab)</span></a></div></div>
+<figure class="project-figure buddy-figure"><div class="figure-label"><span>ON MY DESKTOP</span><span>01</span></div><img src="../../assets/desktop-buddy/buddy-wave.png" alt="Desktop Buddy, a 3D cartoon character in a dark suit, waving" width="179" height="324"><figcaption>Rigged and rendered in Blender.</figcaption></figure>
+</section>
+<dl class="project-facts wrap"><div><dt>Type</dt><dd>Personal desktop app (Linux)</dd></div><div><dt>Built with</dt><dd>Python · PyQt6 · Claude API</dd></div><div><dt>Voice</dt><dd>faster-whisper · Piper, on the laptop</dd></div><div><dt>Languages</dt><dd>English · Telugu</dd></div></dl>
+<div class="project-layout wrap">
+<aside class="contents"><p class="eyebrow">INSIDE THE PROJECT</p><nav aria-label="Project sections"><a href="#overview">01 / The problem</a><a href="#character">02 / A character, not a window</a><a href="#assistant">03 / What he can do</a><a href="#voice">04 / “Hey Buddy”</a><a href="#trust">05 / Designed for trust</a><a href="#engineering">06 / How it’s built</a><a href="#learning">07 / Takeaways</a><a href="#sources">08 / Try it</a></nav></aside>
+<article class="project-writing">
+<section id="overview"><p class="eyebrow">01 / THE PROBLEM</p><h2>My day lives in too many tabs.</h2><p>Meetings sit in Outlook, notes in documents, quick messages on my phone, and the small things I promise to do live in my head. Each tool is good on its own, but nothing connects them, and a reminder that pops up once is easy to miss.</p><p>I wanted one friendly place to ask “what’s next?”, one that notices when I’m about to miss a meeting and doesn’t need me to open another app. Desktop Buddy is that place: a character on my desktop, backed by an AI assistant that can use my calendar, reminders and notes.</p></section>
+<section id="character"><p class="eyebrow">02 / A CHARACTER, NOT A WINDOW</p><h2>Something you notice without being interrupted.</h2><p>Buddy walks along the side of the screen, waves when he has something to say, and after ten quiet minutes pulls up a chair and sits down. When he speaks, his mouth moves with the words.</p><figure class="buddy-poses"><img src="../../assets/desktop-buddy/buddy-poses.png" alt="Five poses of Desktop Buddy: standing, walking in profile, walking toward the viewer, and two waves" width="1000" height="300" loading="lazy"><figcaption>I modelled, rigged and toon-shaded him in Blender, then rendered each animation from seven angles so he can turn as he walks.</figcaption></figure><p>A character carries information that a notification can’t. You can see at a glance whether he’s listening, thinking, talking or resting, and a wave is far easier to notice, and far kinder, than a pop-up.</p></section>
+<section id="assistant"><p class="eyebrow">03 / WHAT HE CAN DO</p><h2>Small jobs that add up over a day.</h2>
+<ul class="buddy-list">
+<li><strong>Meeting reminders that don’t give up.</strong> Ten minutes before a meeting he shows a card with the join link, and repeats it every two minutes until I join or dismiss it. With the first reminder, he gives a short briefing on what the meeting is about.</li>
+<li><strong>Minutes of meeting.</strong> When I join a call, he asks whether to record. If I say yes, he transcribes it on the laptop, including mixed English and Telugu, and writes structured minutes: decisions, action items and owners.</li>
+<li><strong>An assistant with memory.</strong> I can ask about my schedule, set reminders, or tell him things to remember. Notes and past minutes are stored in a small local database he can search later.</li>
+<li><strong>Everyday shortcuts.</strong> “Open Downloads”, “open Firefox”, fixing the grammar in a paragraph, or drafting a WhatsApp message that he sends only after I confirm it.</li>
+<li><strong>A companion while I code.</strong> Hooked into my coding tools, he tells me when a long task has finished, so I can step away without watching the terminal.</li>
+</ul></section>
+<section id="voice"><p class="eyebrow">04 / “HEY BUDDY”</p><h2>A voice that works in the languages I actually speak.</h2><p>Voice runs in stages, so the expensive steps only happen when they’re needed:</p>
+<ol class="method-steps">
+<li><strong>Listen for speech.</strong> An adaptive gate follows the room’s background noise and cuts the microphone stream into utterances.</li>
+<li><strong>Check for the wake phrase.</strong> A tiny, fast speech model listens for “Hey Buddy”. Anything else is dropped straight away.</li>
+<li><strong>Understand the question.</strong> A larger model transcribes the command. If I spoke Telugu, it is translated into English for the assistant, and Buddy answers in Telugu.</li>
+<li><strong>Answer and speak.</strong> Claude writes a short spoken reply, and a local text-to-speech voice says it while his mouth moves. For a few seconds afterwards he listens for a follow-up, without needing “Hey Buddy” again.</li>
+</ol>
+<div class="reading-note"><h3>A lesson from debugging</h3><p>One day, voice replies suddenly became very slow. The code hadn’t changed: after a restart, the laptop’s microphone gain had reset to maximum, so the silence in the room sounded as loud as speech and Buddy never heard a pause. Measuring the signal found the cause in minutes. The fix was a lower gain plus a listener that re-learns the room by itself. It was a good reminder to measure before guessing.</p></div></section>
+<section id="trust"><p class="eyebrow">05 / DESIGNED FOR TRUST</p><h2>An assistant on your desktop has to earn its place.</h2><p>Something that listens and knows your calendar has to be trustworthy by design, not by promise. A few rules shaped the product:</p>
+<ul class="buddy-list">
+<li><strong>Audio stays on the laptop.</strong> Wake-word detection, transcription and speech all run locally. Microphone audio is held in memory only until it has been checked.</li>
+<li><strong>Ask first, every time.</strong> Meetings are never recorded automatically, and messages are never sent without an explicit yes.</li>
+<li><strong>Step back on calls.</strong> When another app is using the microphone, he stops listening, so colleagues saying “buddy” won’t wake him.</li>
+<li><strong>Secrets stay out of the code.</strong> API keys and calendar links live in the user’s own settings, never in the repository.</li>
+</ul></section>
+<section id="engineering"><p class="eyebrow">06 / HOW IT’S BUILT</p><h2>A desktop app with an AI core.</h2><div class="table-scroll" tabindex="0" role="region" aria-label="Desktop Buddy building blocks"><table><caption>The main building blocks</caption><thead><tr><th scope="col">Part</th><th scope="col">What it does</th><th scope="col">Built with</th></tr></thead><tbody>
+<tr><th scope="row">Character</th><td>Walking, waving, sitting and talking animation</td><td>Blender, pre-rendered sprites, PyQt6</td></tr>
+<tr><th scope="row">Assistant</th><td>Answers questions and uses tools: calendar, reminders, memory, apps, messages</td><td>Claude API with tool use, streaming</td></tr>
+<tr><th scope="row">Memory</th><td>Remembers notes and past minutes and searches them</td><td>SQLite with full-text search</td></tr>
+<tr><th scope="row">Voice</th><td>Wake word, speech recognition, translation, speech</td><td>faster-whisper, Silero VAD, Piper TTS</td></tr>
+<tr><th scope="row">Meetings</th><td>Reminders, briefings, recording and minutes</td><td>Outlook calendar feed, PipeWire, Claude</td></tr>
+</tbody></table></div>
+<p>The project is covered by more than 200 automated tests that run on every change, including the voice logic, which is tested without a microphone by feeding in generated audio.</p></section>
+<section id="learning"><p class="eyebrow">07 / TAKEAWAYS</p><h2>Start with the moment, not the model.</h2><p>The most useful features came from specific moments in my day: missing a meeting link, forgetting what was agreed on a call, wanting to ask something without switching windows. The AI model matters, but the product is in the details around it: when to interrupt, when to stay quiet, and when to ask permission.</p><p>I built Desktop Buddy in phases, with Claude Code as my pair programmer. Each phase ended with something I could use the next day, which kept the roadmap honest. Next, I want to add a settings window, simpler installation and a short demo video.</p></section>
+<section id="sources" class="project-sources"><p class="eyebrow">08 / TRY IT</p><h2>Explore the code.</h2><p>Desktop Buddy is open source. The repository includes the Python application, the Blender scripts that build and render the character, and the test suite. It runs on Linux (GNOME) and needs a Claude API key for the assistant features.</p><div class="source-links"><a class="button primary" href="https://github.com/ChandraSKN/Desktop-buddy-" target="_blank" rel="noopener noreferrer">View on GitHub ↗<span class="sr-only"> (opens in a new tab)</span></a></div></section>
+</article></div>
+</main>
+<footer class="project-footer wrap"><a class="text-link" href="../../#tech">← Explore more work</a><span>Chandra SK Nadendla / Engineering &amp; product</span><a class="text-link" href="#main">Back to top ↑</a></footer>
+</body></html>
