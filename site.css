@@ -152,10 +152,3 @@ h2{font-size:clamp(32px,3.5vw,48px);font-weight:500;line-height:1.12}
 /* Readable labels across the inherited component styles. */
 .tags span,.avatar-status,.capabilities span,.job-date,.education .eyebrow,.footer>a:last-child,.thinking-pause,.thinking-node-label,.mock-top>span:last-child,.mock-bottom>span:first-child{font-size:11px}
 .thinking-core,.thinking-sphere{box-shadow:inset -10px -12px 22px #26396525,0 12px 25px #26396520}
-/* Desktop Buddy card (Tech projects) */
-.buddy-art{background:#dfe5f3;position:relative;overflow:hidden}
-.buddy-art .mock-top>span:first-child{font-size:11px;letter-spacing:1.5px}
-.buddy-art img{position:absolute;bottom:52px;right:18%;height:260px;width:auto}
-.buddy-art:hover img{transform:translateY(-6px) rotate(-1deg)}
-.buddy-bubble{position:absolute;top:92px;left:9%;max-width:230px;margin:0;background:var(--white);color:var(--text);border:1px solid var(--rule);border-radius:14px 14px 14px 4px;padding:14px 18px;font-size:15px;line-height:1.45;box-shadow:0 8px 20px #2946df14}
-@media(max-width:760px){.buddy-art img{height:210px;right:8%}.buddy-bubble{top:72px;left:6%;max-width:180px;font-size:13px}}

@@ -13,11 +13,15 @@ From this directory, run `python3 -m http.server 3000` and visit `http://localho
 - `portfolio.css`: homepage component layout; `site.css` supplies the shared visual system.
 - The existing images, résumé, writing pages, and Next.js assets are retained.
 
-The Tech projects section (`#tech`) links Desktop Buddy to `projects/desktop-buddy/`, a written walkthrough that reuses the Spinodoid page styles plus `desktop-buddy.css`. Its images in `assets/desktop-buddy/` are frames rendered from the Blender model in the [Desktop Buddy repository](https://github.com/ChandraSKN/Desktop-buddy-).
-
 Common Ground links to the interactive negotiation demo at `projects/common-ground/`. Its portfolio preview (`assets/common-ground-preview.png`) is a browser capture of the local fictional demo. Spinodoid Structures links to a written project walkthrough at `projects/spinodoid/`, using the existing project image and the supplied MSc report.
 
 The employment details are carried over from the previous portfolio, including the current role's date. Confirm these and the résumé before publishing. Deploy the contents of this directory to the existing static host. No deployment is performed by editing these files.
+
+## Floor plan of the work
+
+The homepage work section (`#work`) is a gallery floor plan: three rooms (Common Ground, Spinodoid Structures, Desktop Buddy) around a hall, with a wall label for each project. `gallery.js` shows the chosen room's label and walks Buddy (`assets/desktop-buddy/guide-sprite.png`, frames from the Blender model in the [Desktop Buddy repository](https://github.com/ChandraSKN/Desktop-buddy-)) along the hall with `requestAnimationFrame`. Links to `#room-01`…`#room-03` (and the old `#tech`) open that room; project pages link back to their own room. Without JavaScript the rooms are links and every wall label stays visible; reduced motion places Buddy without walking. To add a project, add a room (position it in `gallery.css`), its doorway x in `doors` in `gallery.js`, and a placard.
+
+Desktop Buddy's write-up lives at `projects/desktop-buddy/` and reuses the Spinodoid page styles plus `desktop-buddy.css`.
 
 ## Shared exhibition design
 
