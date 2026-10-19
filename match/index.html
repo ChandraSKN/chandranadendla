@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Job Match — Chandra SK Nadendla</title>
+<meta name="description" content="Paste a job description to see how well it fits Chandra's experience, get a tailored CV and find people to reach out to on LinkedIn.">
+<meta name="theme-color" content="#f4f5f8">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../favicon.ico">
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="match.css?v=5">
+<script src="../site.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+<script src="match.js?v=5" defer></script>
+<script src="match-ui.js?v=5" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the tool</a>
+<header class="site-header"><a class="site-brand" href="../index.html" aria-label="Chandra SK Nadendla, home"><img src="../Logo.png" width="42" height="42" alt=""><span>Chandra<span>SK Nadendla</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>Menu</button><nav id="site-navigation" aria-label="Main navigation"><a href="../index.html#work">Work</a><a href="../blogs/">Writing</a><a href="../stories/">Stories</a><a href="../learn.html">Lab</a><a href="../index.html#about">About</a><a class="site-contact" href="../index.html#contact">Let’s talk <span aria-hidden="true">↗</span></a></nav></header>
+
+<main id="main" class="jm wrap">
+  <section class="jm-intro">
+    <p class="jm-label">Job match / 2026</p>
+    <h1>Paste a role.<br>See the <em>fit.</em></h1>
+    <p class="jm-deck">Reads the job description against my real experience — the defence programmes, Common Ground, Desktop Buddy — scores the fit, rewrites my CV around what the role asks for, and lines up the people worth messaging.</p>
+  </section>
+
+  <form class="jm-form" id="jm-form">
+    <label for="jd" class="jm-label">Job description</label>
+    <textarea id="jd" rows="12" required placeholder="Paste the full job description here: title, company, responsibilities and requirements."></textarea>
+    <div class="jm-row">
+      <label>Company <input id="company" autocomplete="off" placeholder="Detected from the text"></label>
+      <label>Role <input id="title" autocomplete="off" placeholder="Detected from the text"></label>
+      <button class="jm-btn" type="submit">Analyse the role <span aria-hidden="true">→</span></button>
+    </div>
+    <p class="jm-note">Runs in your browser. Nothing you paste is sent anywhere.</p>
+  </form>
+
+  <section class="jm-jobs" id="jobs">
+    <div class="jm-head"><h2>Open roles in India &amp; remote <small id="jobs-when"></small></h2><button class="jm-btn" type="button" id="check">Check now <span aria-hidden="true">↻</span></button></div>
+    <input id="jobs-filter" type="search" placeholder="Filter by company, role or location" aria-label="Filter jobs">
+    <ul id="jobs-list"></ul>
+  </section>
+
+  <div id="out" hidden>
+    <section class="jm-score" aria-labelledby="verdict">
+      <div class="jm-dial"><span id="score">0</span><small>/ 100</small></div>
+      <div>
+        <p class="jm-label">Chance of an interview</p>
+        <h2 id="verdict"></h2>
+        <p id="advice" class="jm-deck"></p>
+        <div class="jm-bar" aria-hidden="true"><i id="bar"></i></div>
+        <p id="years" class="jm-note"></p>
+      </div>
+    </section>
+
+    <section class="jm-grid">
+      <div><h3><span class="dot ok"></span>Proven</h3><ul id="strengths" class="chips"></ul></div>
+      <div><h3><span class="dot mid"></span>Some evidence</h3><ul id="partial" class="chips"></ul></div>
+      <div><h3><span class="dot gap"></span>Gaps to address</h3><ul id="gaps" class="chips"></ul></div>
+    </section>
+
+    <section class="jm-section">
+      <div class="jm-head"><div><p class="jm-label">01 / Tailored CV</p><h2>Reordered for this role.</h2></div><button class="jm-btn" type="button" id="print">Download PDF <span aria-hidden="true">↓</span></button></div>
+      <article id="cv" class="cv"></article>
+    </section>
+
+    <section class="jm-section">
+      <div class="jm-head"><div><p class="jm-label">02 / People to reach</p><h2>Start with the warmest door.</h2></div></div>
+      <ol id="people" class="people"></ol>
+      <div class="jm-msg">
+        <label for="msg" class="jm-label">Connection note (under 300 characters for LinkedIn)</label>
+        <textarea id="msg" rows="4"></textarea>
+        <div class="jm-row"><span id="chars" class="jm-note"></span><button class="jm-btn ghost" type="button" id="copy">Copy note</button></div>
+      </div>
+    </section>
+
+    <section class="jm-section">
+      <div class="jm-head"><div><p class="jm-label">03 / Application questions</p><h2>Answer in my words.</h2></div></div>
+      <div class="jm-msg">
+        <label for="q" class="jm-label">Paste a question from the application form</label>
+        <textarea id="q" rows="2" placeholder="e.g. Why do you want to work here?"></textarea>
+        <div class="jm-row"><span class="jm-note">Fill in anything in [brackets] before sending.</span><button class="jm-btn" type="button" id="ask">Answer</button></div>
+        <details class="jm-note"><summary>Claude API key (<span id="key-state">not set: using templates</span>)</summary>
+          <p>Stored only in this browser. Never commit it or share this page with it filled in.</p>
+          <input id="key" type="password" autocomplete="off" placeholder="sk-ant-...">
+          <button class="jm-btn ghost" type="button" id="save-key">Save key</button>
+        </details>
+        <textarea id="ans" rows="7" aria-label="Answer"></textarea>
+        <div class="jm-row"><span id="ans-chars" class="jm-note"></span><button class="jm-btn ghost" type="button" id="copy-ans">Copy answer</button></div>
+      </div>
+    </section>
+  </div>
+</main>
+</body>
+</html>

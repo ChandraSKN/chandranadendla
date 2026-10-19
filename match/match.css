@@ -1,0 +1,103 @@
+/* Job match. Uses the site tokens from site.css: one cobalt accent on cool paper. */
+.jm{padding-block:72px 120px;margin-inline:auto}
+@media(max-width:760px){.jm.wrap{width:calc(100% - 32px)}}
+.jm-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--secondary);margin:0 0 14px;display:block}
+.jm-intro{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:end;padding-bottom:56px;border-bottom:1px solid var(--rule)}
+.jm-intro .jm-label{grid-column:1/-1;margin:0}
+.jm h1{font-size:clamp(44px,6.5vw,94px);font-weight:580;line-height:1;letter-spacing:-.055em;margin:0}
+.jm h1 em{font-style:italic;color:var(--blue);padding-right:.08em}
+.jm h2{font-size:clamp(28px,3.2vw,44px);font-weight:520;letter-spacing:-.035em;line-height:1.08;margin:0}
+.jm-deck{font-size:17px;line-height:1.7;color:var(--secondary);max-width:58ch;margin:0}
+.jm-note{font-size:13px;color:var(--secondary);margin:12px 0 0}
+.jm-note.over{color:#b42318}
+
+.jm-form{padding-block:48px}
+.jm textarea,.jm input{width:100%;font:inherit;font-size:15px;color:var(--text);background:var(--white);border:1px solid var(--rule);border-radius:4px;padding:16px 18px;transition:border-color .2s}
+.jm textarea{resize:vertical;line-height:1.6;min-height:180px}
+.jm textarea:focus,.jm input:focus{outline:3px solid var(--blue);outline-offset:2px;border-color:var(--blue)}
+.jm-row{display:grid;grid-template-columns:1fr 1fr auto;gap:16px;align-items:end;margin-top:16px}
+.jm-row label{font-size:13px;color:var(--secondary);display:grid;gap:8px}
+.jm-btn{min-height:52px;display:inline-flex;align-items:center;gap:14px;background:var(--blue);color:#fff;border:0;border-radius:4px;padding:0 24px;font:inherit;font-size:14px;font-weight:600;cursor:pointer;transition:background .2s,transform .4s cubic-bezier(.22,1,.36,1)}
+.jm-btn:hover{background:#2038b8;transform:translateY(-2px)}
+.jm-btn:active{transform:translateY(0) scale(.98)}
+.jm-btn.ghost{background:transparent;color:var(--text);border:1px solid var(--rule)}
+.jm-btn.ghost:hover{border-color:var(--blue);color:var(--blue)}
+.jm-btn:focus-visible{outline:3px solid var(--blue);outline-offset:5px}
+
+#out{animation:rise .6s cubic-bezier(.22,1,.36,1)}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}}
+.jm-score{display:grid;grid-template-columns:auto 1fr;gap:56px;align-items:center;padding:56px 0;border-top:1px solid var(--rule)}
+.jm-dial{font-size:clamp(96px,14vw,184px);font-weight:600;letter-spacing:-.07em;line-height:.85;font-variant-numeric:tabular-nums;color:var(--blue)}
+.jm-dial small{font-size:18px;letter-spacing:0;color:var(--secondary);font-weight:500;margin-left:8px}
+.jm-score h2{margin-bottom:12px}
+.jm-bar{height:4px;background:var(--surface);border-radius:2px;margin-top:24px;overflow:hidden;max-width:560px}
+.jm-bar i{display:block;height:100%;width:0;background:var(--blue);transition:width .9s cubic-bezier(.22,1,.36,1)}
+
+.jm-grid{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--rule)}
+.jm-grid>div{padding:32px 32px 32px 0}
+.jm-grid>div+div{padding-left:32px;border-left:1px solid var(--rule)}
+.jm-grid h3{font-size:15px;font-weight:600;margin:0 0 18px;display:flex;align-items:center;gap:10px}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.dot.ok{background:var(--blue)}.dot.mid{background:transparent;border:2px solid var(--blue)}.dot.gap{background:var(--rule)}
+.chips{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{font-size:13px;padding:7px 12px;border-radius:4px;background:var(--surface)}
+.chips li.none{background:none;padding-left:0;color:var(--secondary)}
+
+.jm-section{padding-top:88px}
+.jm-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:32px}
+
+.cv{background:#fff;color:#111;border:1px solid var(--rule);border-radius:12px;padding:56px 64px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5;max-width:880px}
+.cv header{text-align:center;padding-bottom:12px}
+.cv h3{font-size:26px;font-weight:700;margin:0 0 4px}
+.cv .headline{font-size:15px;font-weight:600;margin:0 0 4px!important}
+.cv header p{margin:0;font-size:12px}
+.cv h4{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-bottom:1px solid #111;padding-bottom:3px;margin:20px 0 8px}
+.cv p{margin:0 0 6px}
+.cv .role{margin-top:10px}
+.cv ul{margin:4px 0 10px;padding-left:18px}
+.cv li{margin-bottom:3px}
+
+.people{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule);counter-reset:p}
+.people a{display:grid;grid-template-columns:48px 1fr 1.4fr auto;gap:16px;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--rule);color:inherit;text-decoration:none;counter-increment:p;transition:padding .4s cubic-bezier(.22,1,.36,1),color .2s}
+.people a::before{content:counter(p,decimal-leading-zero);font-size:12px;color:var(--secondary);font-variant-numeric:tabular-nums}
+.people b{font-weight:550;font-size:18px;letter-spacing:-.01em}
+.people a>span:not(.sr-only){font-size:14px;color:var(--secondary)}
+.people i{font-style:normal;color:var(--blue)}
+.people a:hover{padding-left:12px;color:var(--blue)}
+.people a:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+.jm-msg{margin-top:40px;max-width:880px}
+.jm-msg .jm-row{grid-template-columns:1fr auto;align-items:center}
+
+@media(max-width:760px){
+  .jm{padding-block:40px 80px}
+  .jm-intro,.jm-score{grid-template-columns:1fr;gap:24px}
+  .jm-row{grid-template-columns:1fr}
+  .jm-grid{grid-template-columns:1fr}
+  .jm-grid>div,.jm-grid>div+div{padding:24px 0;border-left:0}
+  .jm-grid>div+div{border-top:1px solid var(--rule)}
+  .jm-head{flex-direction:column;align-items:start}
+  .cv{padding:28px 20px}
+  .people a{grid-template-columns:32px 1fr auto}
+  .people a>span:not(.sr-only){grid-column:2/3}
+}
+@media(prefers-reduced-motion:reduce){#out{animation:none}.jm-bar i{transition:none}}
+
+/* Print only the CV, so "Save as PDF" gives a clean one-to-two page document. */
+@media print{
+  @page{margin:14mm}
+  body *{visibility:hidden}
+  .cv,.cv *{visibility:visible}
+  .cv{position:absolute;inset:0 auto auto 0;border:0;border-radius:0;padding:0;max-width:none;font-size:10.5pt;color:#000}
+  .cv h4,.cv li,.cv .role{break-after:avoid;break-inside:avoid}
+}
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.cv a{color:inherit;text-decoration:underline}
+.jm-msg details{margin:12px 0}.jm-msg details summary{cursor:pointer}.jm-msg details input{margin:8px 0}
+.jm-jobs { margin: 2rem 0; }
+.jm-jobs input { width: 100%; padding: .6rem .8rem; margin: .5rem 0 1rem; font: inherit; }
+.jm-jobs ul { list-style: none; padding: 0; margin: 0; max-height: 32rem; overflow-y: auto; }
+.jm-jobs li { display: flex; gap: .8rem; align-items: center; padding: .6rem 0; border-bottom: 1px solid currentColor; border-color: color-mix(in srgb, currentColor 15%, transparent); }
+.jm-jobs li[hidden] { display: none; }
+.jm-jobs li > b { min-width: 2.2rem; font-size: 1.1rem; }
+.jm-jobs li span { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.jm-jobs small { opacity: .7; font-weight: normal; }
