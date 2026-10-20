@@ -19,9 +19,11 @@ The employment details are carried over from the previous portfolio, including t
 
 ## Floor plan of the work
 
-The homepage work section (`#work`) is a gallery floor plan: three rooms (Common Ground, Spinodoid Structures, Desktop Buddy) around a hall, with a wall label for each project. `gallery.js` shows the chosen room's label and walks Buddy (`assets/desktop-buddy/guide-sprite.png`, frames from the Blender model in the [Desktop Buddy repository](https://github.com/ChandraSKN/Desktop-buddy-)) along the hall with `requestAnimationFrame`. Links to `#room-01`…`#room-03` (and the old `#tech`) open that room; project pages link back to their own room. Without JavaScript the rooms are links and every wall label stays visible; reduced motion places Buddy without walking. To add a project, add a room (position it in `gallery.css`), its doorway x in `doors` in `gallery.js`, and a placard.
+The homepage work section (`#work`) is a gallery floor plan: four rooms (Common Ground, Spinodoid Structures, Desktop Buddy, Agent Office) around a hall, with a wall label for each project. `gallery.js` shows the chosen room's label and walks Buddy (`assets/desktop-buddy/guide-sprite.png`, frames from the Blender model in the [Desktop Buddy repository](https://github.com/ChandraSKN/Desktop-buddy-)) along the hall with `requestAnimationFrame`. Links to `#room-01`…`#room-04` (and the old `#tech`) open that room; project pages link back to their own room. Without JavaScript the rooms are links and every wall label stays visible; reduced motion places Buddy without walking. To add a project, add a room (position it in `gallery.css`), its doorway x in `doors` in `gallery.js`, and a placard.
 
 Desktop Buddy's write-up lives at `projects/desktop-buddy/` and reuses the Spinodoid page styles plus `desktop-buddy.css`.
+
+Agent Office's write-up lives at `projects/agent-office/` and reuses the Spinodoid and Desktop Buddy page styles plus `agent-office.css`. Its clip and images in `assets/agent-office/` come from the demo pipeline in the agent-office repository (`video/`).
 
 ## Shared exhibition design
 

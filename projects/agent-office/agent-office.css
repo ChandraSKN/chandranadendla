@@ -1,0 +1,5 @@
+.office-figure{background:#1d2330}
+.office-figure img{display:block;width:100%;height:auto;object-fit:cover}
+.office-video{margin:32px 0;border-radius:12px;overflow:hidden;background:#1d2330}
+.office-video video{display:block;width:100%;height:auto;aspect-ratio:16/9}
+.office-video figcaption{background:var(--surface,#e7ebf4);font-size:12px;line-height:1.6;padding:14px 18px;color:var(--secondary,#586174)}

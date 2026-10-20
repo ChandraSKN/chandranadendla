@@ -4,7 +4,7 @@ const BASE=process.env.PORTFOLIO_BASE_URL||'http://127.0.0.1:3021';
 (async()=>{
 const browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',args:['--no-sandbox']});
 const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
-const routes=['/','/professional.html','/stories/','/stories/GameChanger/','/stories/MAD/','/stories/LOVE/','/stories/Maya/','/stories/Yamadutta/','/blogs/','/blogs/theTurk/','/blogs/generativeAI/','/learn.html','/projects/common-ground/','/projects/spinodoid/'];
+const routes=['/','/professional.html','/stories/','/stories/GameChanger/','/stories/MAD/','/stories/LOVE/','/stories/Maya/','/stories/Yamadutta/','/blogs/','/blogs/theTurk/','/blogs/generativeAI/','/learn.html','/projects/common-ground/','/projects/spinodoid/','/projects/agent-office/'];
 const overflows=[];const broken=[];
 for(const width of [1440,768,390,320]){
 await page.setViewportSize({width,height:1000});

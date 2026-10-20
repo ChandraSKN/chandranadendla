@@ -9,11 +9,11 @@
 
   const rooms = [...plan.querySelectorAll('.room')];
   const order = rooms.map(room => room.dataset.room);
-  const doors = { '01': 25, '02': 75, '03': 68.5 };      // doorway x, in % of the plan
+  const doors = { '01': 25, '02': 75, '03': 53.75, '04': 83.25 };      // doorway x, in % of the plan
   const HALL = 58;                                         // where he walks, in % of the plan height
   const SPEED = 150;                                       // px per second
   const ROW = { left: 0, right: 1, front: 2, wave: 3, idle: 4 };
-  const greetings = { '01': 'Room 01, come in!', '02': 'Room 02, mind the struts!', '03': 'Room 03, that’s me!' };
+  const greetings = { '01': 'Room 01, come in!', '02': 'Room 02, mind the struts!', '03': 'Room 03, that’s me!', '04': 'Room 04, my office!' };
   const still = matchMedia('(prefers-reduced-motion: reduce)');
   const bubble = guide.querySelector('.guide-bubble');
 
@@ -121,7 +121,7 @@
   });
 
   // start from a link such as #room-03 (or the old #tech), otherwise Room 01
-  const fromHash = { '#tech': '03', '#room-01': '01', '#room-02': '02', '#room-03': '03' }[location.hash];
+  const fromHash = { '#tech': '03', '#room-01': '01', '#room-02': '02', '#room-03': '03', '#room-04': '04' }[location.hash];
   gallery.classList.add('is-ready');
   select(fromHash || '01', { walk: false, updateHash: false });
   row('idle');
