@@ -196,9 +196,20 @@
 
   h1 .nm { white-space: nowrap; }
   @media (max-width: 899px) {
-    header h1 { font-size: clamp(30px, 9.5vw, 44px); }
-    header h1 .nm { display: block; }
-    header .wrap > * { max-width: 100%; overflow-wrap: anywhere; }
+    /* phones: the text column is the space between the pillars; nothing may be wider than it */
+    header { grid-template-columns: minmax(0, 1fr); }
+    header .wrap { width: 100%; min-width: 0; max-width: 100vw; padding-inline: 58px; }
+    header .wrap > * { max-width: 100%; overflow-wrap: break-word; }
+    header h1 { font-size: min(9vw, calc((100vw - 116px) / 7.4), 42px); }
+    header h1 .nm { display: block; white-space: normal; }
+    header h1 .chi { display: block; font-size: 15px; vertical-align: 0; margin-bottom: 2px; letter-spacing: .04em; }
+    header .invite { letter-spacing: .1em; }
+    header .dates { font-size: min(6vw, 26px); }
+    header .countdown .cd-tiles { gap: 6px; width: 100%; }
+    header .countdown .cd-tiles div { min-width: 0; flex: 1 1 0; padding: 10px 2px 8px; border-radius: 10px; }
+    header .countdown .cd-tiles b { font-size: min(8vw, 32px); }
+    header .countdown .cd-tiles span { font-size: 9px; letter-spacing: .06em; }
+    header .countdown .cd-label { font-size: 11px; letter-spacing: .1em; }
   }
   h1 .chi { font-size: .42em; font-style: italic; font-weight: 500; color: var(--gold); vertical-align: .35em; }
   /* hero countdown */
@@ -300,7 +311,7 @@
     .mandap .banana, .props, .garland.inner { display: none; }
     .garland { transform: scale(.5); animation: none; }
     .garland:first-of-type { left: 44px !important; } .garland:last-of-type { right: 44px !important; }
-    header .wrap { padding-inline: 62px; }
+    header .wrap { padding-inline: 58px; }
     header { padding: 96px 0 72px; }
     .invite { font-size: 11px; letter-spacing: .14em; }
     .city { font-size: 14px; }
