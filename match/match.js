@@ -35,14 +35,16 @@ const SKILLS = [
   ['django', 'Django', 0.6, ['django']],
   ['matlab', 'MATLAB', 0.6, ['matlab']],
   ['sql', 'Postgres / SQL', 0.6, ['sql', 'postgres', 'database']],
-  ['docker', 'Docker', 0.6, ['docker', 'container']],
+  ['docker', 'Docker & CI/CD', 0.6, ['docker', 'container', 'ci/cd', 'continuous integration']],
+  ['firmware', 'Embedded firmware (ESP32, C++, LVGL)', 0.6, ['firmware', 'esp32', 'c++', 'lvgl', 'microcontroller']],
+  ['awsaz', 'AWS / Azure (basic)', 0.3, ['aws', 'azure']],
   ['ai', 'AI / LLM products', 0.6, ['llm', 'generative ai', 'genai', 'artificial intelligence', 'ai ', 'ai-', 'ai,', 'machine learning', 'claude', 'openai']],
   ['data', 'Data analysis & modelling', 0.6, ['data analy', 'analytics', 'predictive model', 'excel', 'dashboards']],
   ['saas', 'SaaS / platforms', 0.6, ['saas', 'platform', 'b2b software']],
   ['agile', 'Agile delivery', 0.6, ['agile', 'scrum', 'sprint', 'jira']],
   // Gaps: asked for often, not on the CV.
-  ['java', 'Java / C++ / C#', 0, ['java ', 'c++', 'c#', '.net']],
-  ['cloud', 'AWS / Azure / GCP', 0, ['aws', 'azure', 'gcp', 'google cloud', 'kubernetes']],
+  ['java', 'Java / C#', 0, ['java ', 'c#', '.net']],
+  ['cloud', 'GCP / Kubernetes', 0, ['gcp', 'google cloud', 'kubernetes']],
   ['ros', 'ROS', 0, ['ros ', 'ros2', 'robot operating system']],
   ['mba', 'MBA', 0, ['mba']],
   ['clearance', 'Security clearance', 0, ['clearance', 'sc cleared', 'dv cleared']],
@@ -57,20 +59,21 @@ const CV = {
   name: 'Chandra SK Nadendla',
   contact: 'Hyderabad, India · chandrasknadendla@gmail.com · +91 73829 59704 · LinkedIn · chandranadendla.com',
   profiles: {
-    product: 'Product manager with 5+ years across product, business development and software engineering. At a defence robotics startup I own the lifecycle of 6+ robotics initiatives from discovery and PRDs to client delivery, and I build my own products, from a costing platform to an AI desktop assistant.',
+    product: 'Product manager for robotics and autonomous systems with 5+ years across product management, business development and software engineering. I own the full cycle from customer discovery and technical requirements to delivery across defence, aerospace, industrial automation and enterprise software, along with bid strategy, pricing and financial planning, and I prototype what I specify, in firmware as well as software.',
     business: 'Strategy and business development professional with 5+ years across product, commercial and engineering roles. I lead pricing, bids and negotiation for defence programmes, have built a ₹2 crore+ pipeline, and bring business management training (NMIMS) on top of an engineering foundation.',
-    engineering: 'Engineer with 5+ years spanning production React at Cognizant, robotics product delivery and AI tooling. MSc Mechanical Engineering (University of Glasgow). I ship working prototypes end to end, from fleet-management platforms to a voice-driven AI assistant built on the Claude API.',
+    engineering: 'Engineer with 5+ years spanning production React at Cognizant, robotics product delivery and embedded firmware. MSc Mechanical Engineering (University of Glasgow). I ship working prototypes end to end, from fleet-management platforms to an ESP32-S3 AI desk assistant with custom LVGL firmware.',
     operations: 'Operations and delivery lead with 5+ years across product, business and engineering. I run concurrent robotics projects end to end, introduced an execution framework across a 20+ member team, and translate customer problems into scoped, costed requirements.',
   },
   roles: [
     { title: 'Product Manager', org: 'Trinnovate Synergy Technologies Pvt. Ltd.', when: 'Feb 2025 – Present', bullets: [
       ['Led financial planning for two Central Command defence programmes worth ₹2 crore: a camera-controlled drone system and a co-axial drone launcher adapted from a missile launcher, covering cost estimation, budgeting and pricing from proposal to delivery.', 'finance pricing defence robotics'],
       ['Converted 4 of 10+ GeM bids into orders and built an active pipeline of over ₹2 crore, owning technical proposals, feasibility, pricing, demonstrations and negotiation.', 'bid procurement negotiation bd pricing presenting'],
-      ['Took part in investor discussions and led product demonstrations, customer workshops and technical presentations.', 'investor presenting strategy'],
-      ['Primary interface for Defence, Navy, PSU and industrial customers, translating operational problems into scoped, costed technical requirements.', 'stakeholder defence procurement discovery prd'],
+      ['Drove product demonstrations, customer workshops, technical presentations and investor discussions in support of business development.', 'investor presenting strategy bd'],
+      ['Delivered an automated blade inspection system for jet engines, inspecting aerospace turbine components in real time on a conveyor line and cutting manual intervention.', 'automation vision defence delivery'],
+      ['Primary interface for defence, public-sector and academic customers including Western Command, the Indian Naval Academy, the Indian Navy, PSUs and IIT Jammu, translating operational problems into scoped, costed technical requirements.', 'stakeholder defence procurement discovery prd'],
       ['Run 4 active perception and smart-inspection projects end to end, aligning client engineering teams with internal development and driving delivery.', 'delivery vision automation stakeholder ops'],
       ['Own the lifecycle of 6+ robotics and autonomous-system initiatives: discovery, PRDs, SOWs, specifications, prioritisation and client delivery.', 'product roadmap prd discovery robotics delivery'],
-      ['Introduced an execution framework across a 20+ member engineering intern team, improving ownership and delivery consistency.', 'leadership ops agile delivery'],
+      ['Introduced the PRISM execution framework across a 20+ member engineering intern team, improving ownership, collaboration and delivery consistency.', 'leadership ops agile delivery'],
       ['Built working prototypes of a cloud-based multi-robot fleet management platform and a face-recognition attendance system for international schools.', 'robotics vision saas python product'],
     ]},
     { title: 'Business Development Executive', org: 'Geo Lands Doctor (Remote)', when: 'Sep 2024 – Dec 2024', bullets: [
@@ -85,7 +88,7 @@ const CV = {
   ],
   projects: [
     ['Common Ground — costing & quotation platform', 'A platform for startups and small engineering teams covering costing, scoping, quotation and revisions. Its negotiation workspace compares offers on full cost and margin, models alternatives such as a paid pilot, and separates internal reasoning from the customer response.', 'pricing negotiation product saas startup react', 'common-ground'],
-    ['Desktop Buddy — AI desktop assistant', 'An animated assistant for Linux with meeting reminders, minutes, long-term memory and “Hey Buddy” voice in English and Telugu. Python, PyQt6, Claude API with tool use, local speech models, 200+ automated tests. Now building a hardware version on an ESP32-S3 round display.', 'ai python product deeptech', 'desktop-buddy'],
+    ['Desk Buddy — multi-surface AI desk assistant (ESP32-S3 + Python)', 'An AI assistant with a hardware face and a software brain: custom LVGL firmware on an ESP32-S3 round display driven by a Python app over a shared USB-serial and Wi-Fi UDP protocol, with verified OTA updates. Benchmarked 7 speech and vision workloads to decide what runs on a Raspberry Pi 5, and ran it as a product with a 6-phase roadmap and costed bill of materials.', 'ai python product deeptech embedded', 'desktop-buddy'],
     ['Spinodoid lattice structures — University of Glasgow', 'MATLAB and Python predictive models linking electrical and mechanical properties across 500+ data points from 35 printed samples.', 'matlab python data mech', 'spinodoid'],
   ],
   education: [
@@ -211,7 +214,7 @@ function answer(q, { company = '', title = '', r = null } = {}) {
   const t = q.toLowerCase();
   const A = [
     [/about yourself|introduce|who are you|your background|walk (me|us) through/, () =>
-      `I'm a product manager with 5+ years across product, business development and software engineering. I started as a front-end engineer at Cognizant, did an MSc in Mechanical Engineering at the University of Glasgow and a business management diploma at NMIMS, and now own 6+ robotics and autonomous-system initiatives at Trinnovate Synergy, from discovery and PRDs to pricing, bids and client delivery. Outside work I build my own products: Common Ground, a costing and quotation platform, and Desktop Buddy, an AI desktop assistant built on the Claude API.`],
+      `I'm a product manager with 5+ years across product, business development and software engineering. I started as a front-end engineer at Cognizant, did an MSc in Mechanical Engineering at the University of Glasgow and a business management diploma at NMIMS, and now own 6+ robotics and autonomous-system initiatives at Trinnovate Synergy, from discovery and PRDs to pricing, bids and client delivery. Outside work I build my own products: Common Ground, a costing and quotation platform, and Desk Buddy, an AI desk assistant with custom ESP32-S3 firmware and a Python brain.`],
     [/why (do you want|are you interested|this (company|role|position)|us\b|join|apply)|interest(ed)? in (this|the|our)|what attracts|motivat/, () =>
       `The ${role} at ${c} lines up with what I already do day to day: ${fit}. At Trinnovate I translate Defence, Navy and industrial customers' problems into scoped, costed requirements and see them through delivery, and I want to bring that end-to-end ownership to ${c}. [Add one specific thing about ${c}: a product, a mission or a recent announcement that genuinely interests you.]`],
     [/why (are you )?(leaving|looking|change|move|switch)|reason for (leaving|change)/, () =>
@@ -242,7 +245,7 @@ function answer(q, { company = '', title = '', r = null } = {}) {
   // Skill questions ("Do you have experience with X?"): answer from the skill list, honestly.
   const skill = SKILLS.find(s => s.terms.some(term => count(' ' + t + ' ', term)));
   if (skill) {
-    if (!skill.level) return `Not directly yet. ${skill.label} isn't something I've used in a role, but I learn new tools quickly: I went from front-end engineering to mechanical engineering to product, and built Desktop Buddy on the Claude API from scratch. [Add anything relevant you have done with ${skill.label}.]`;
+    if (!skill.level) return `Not directly yet. ${skill.label} isn't something I've used in a role, but I learn new tools quickly: I went from front-end engineering to mechanical engineering to product, and built Desk Buddy's firmware and Python app from scratch. [Add anything relevant you have done with ${skill.label}.]`;
     const b = bullets.find(x => x.tags.split(' ').includes(skill.id));
     const proj = CV.projects.find(p => p[2].split(' ').includes(skill.id));
     return `${/^(do|have|are|can|is|did|any)\b/.test(t) ? "Yes. " : ""}${b ? `At ${b.org}, I ${b.t.charAt(0).toLowerCase() + b.t.slice(1)}` : ''}${proj ? ` I've also used it on my own project ${proj[0].split(' —')[0]}: ${proj[1].split('. ')[0]}.` : ''}`.trim();
